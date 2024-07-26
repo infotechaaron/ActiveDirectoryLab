@@ -25,7 +25,7 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 
 #### **Part 1: Installing VirtualBox**
 
-1.  Download VirtualBox at <https://www.virtualbox.org/>
+1.  Download VirtualBox from the website by opening the following link in a new tab: <https://www.virtualbox.org/>
     1.  Click blue Download button
     2.  Choose the platform (Windows hosts for me)<br/>
     <br/>
@@ -135,7 +135,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 <ol>
 <li>Create a Windows 10 image file for the VirtualBox OS (you can do this many different ways):
 <ol style="list-style-type: lower-alpha;">
-<li>Go to <a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
+<li>Go to the Microsoft download center by opening the following link in a new tab:<a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
 <li>Scroll down and select the &ldquo;Download tool now&rdquo; button:<br /><br /><br /></li>
            <p align="center">
     <br/>
