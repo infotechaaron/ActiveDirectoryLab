@@ -214,7 +214,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     1.  Hit the New star-looking button at the top:  
           <p align="center">
     <br/>
-    <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <img src="https://imgur.com/a0aCej0" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
     <br/>
@@ -223,21 +223,20 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     2.  Give your VM a Name and specify where you want to store VM files:  
                   <p align="center">
     <br/>
-    <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <img src="https://imgur.com/32w8G6J" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
-    <br/>
     <br/>
 
         Name: **Windows10-VM-mydomain**  
-        Folder: C:\\Users\\guild\\VirtualBox VMs   
-        ISO Image: C:\\Users\\guild\\VirtualBox VMs\\Windows.iso (choose location where you saved it to)   
-        Skip Unattended Installation: Check the box (this allows to install the OS manually)
+        Folder: **C:\Users\guild\VirtualBox VMs**
+        ISO Image: **C:\Users\guild\VirtualBox VMs\Windows.iso** (choose location where you saved it to)   
+        Skip Unattended Installation: **Check the box** (this allows to install the OS manually)
 
 
     4.  The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
                   <p align="center">
     <br/>
-    <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <img src="https://imgur.com/TQG3cTD" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
         Just for the installation processed, I increased the Base Memory to 4096 MB (4 Gigs) and increased the CPU to 3 Processors (it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these.)
@@ -247,7 +246,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     5.  For the Virtual Hard disk, I decreased to 30 Gigs:  
                   <p align="center">
     <br/>
-    <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <img src="https://imgur.com/VOtgko0" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
     <br/>
