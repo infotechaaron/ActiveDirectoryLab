@@ -133,7 +133,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 <ul>
 
 <ol>
-1. Create a Windows 10 image file for the VirtualBox OS (you can do this many different ways):
+1. Create a Windows 10 image file for the VirtualBox OS (you can do this many different ways):<br/>
+    <br/>
 <ol style="list-style-type: lower-alpha;">
 <li>Go to the Microsoft download center by opening the following link in a new tab:<a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
 <li>Scroll down and select the &ldquo;Download tool now&rdquo; button:<br /><br /><br /></li>
