@@ -203,7 +203,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
 ### Create Windows VM
 
-1.  While that’s downloading, hop over to VirtualBox and we’ll start creating the VM:  
+2.  While that’s downloading, hop over to VirtualBox and we’ll start creating the VM:  
     ![A screenshot of a computer Description automatically generated](media/dc204c380fb38e0d8526410789d5ef75.png)
     1.  Hit the New star-looking button at the top:  
         ![A screenshot of a computer Description automatically generated](media/3f0831a144afddadf8a9cfb22f848b20.png)
