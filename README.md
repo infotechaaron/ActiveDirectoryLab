@@ -137,12 +137,62 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 <ol style="list-style-type: lower-alpha;">
 <li>Go to <a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
 <li>Scroll down and select the &ldquo;Download tool now&rdquo; button:<br /><br /><br /></li>
+           <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/asglkSp.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+
+    
 <li>Open the download:<br /><br /><br /></li>
+   <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/2N7KlH5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
 <li>Eventually you&rsquo;ll see this screen in which you need to Accept:<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/zU43CPw.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
 <li>On the &ldquo;What do you want to do?&rdquo; screen, select the second option and hit Next:<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/HAsyCZC.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
 <li>The next screen you&rsquo;ll be able to change language, architecture and edition if you need to (I&rsquo;m just going to hit next):<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/qFPYiql.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
 <li>The next screen lets you choose between a USB flash drive or an ISO file. Select ISO file, hit Next and save it wherever you like:<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/k4avGVy.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
 <li>Once you&rsquo;ve chosen a download folder it will begin:<br /><br />Note: When the installation is complete, you have to hit Finish on the screen that mentions &ldquo;burning to a DVD&rdquo; (at least I had to). All that does is create a drive in File Explorer called DVD Drive.</li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/Xo3GfmN.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
 </ol>
 </li>
 </ol>
