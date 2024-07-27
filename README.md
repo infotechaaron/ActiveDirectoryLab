@@ -199,9 +199,11 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 </ol>
 </li>
 </ul>
+<br/>
+<br/>
 
 
-<p><br />### Create Windows VM</p>
+### Create Windows VM
 <p>&nbsp;</p>
 <p>While that&rsquo;s downloading, hop over to VirtualBox and we&rsquo;ll start creating the VM:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/jqZ6rb5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
