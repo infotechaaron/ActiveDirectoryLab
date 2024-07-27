@@ -226,15 +226,15 @@ Give your VM a Name and specify where you want to store VM files:
     <img src="https://i.imgur.com/v2MjLCd.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
-            <ul>
-            <li>Name: <strong>Windows10-VM-mydomain</strong></li>
-            <li>Folder: <strong>C:\Users\guild\VirtualBox VMs</strong></li>
-            <li>ISO Image: <strong>C:\Users\guild\VirtualBox VMs\Windows.iso</strong> (choose location where you saved it to)</li>
-            <li>Skip Unattended Installation: <strong>Check the box</strong> (this allows to install the OS manually) </li>
-            </ul>
-            <br/>
-            <br/>
-            <br/>
+        <ul>
+        <li>Name: <strong>Windows10-VM-mydomain</strong></li>
+        <li>Folder: <strong>C:\Users\guild\VirtualBox VMs</strong></li>
+        <li>ISO Image: <strong>C:\Users\guild\VirtualBox VMs\Windows.iso</strong> (choose location where you saved it to)</li>
+        <li>Skip Unattended Installation: <strong>Check the box</strong> (this allows to install the OS manually) </li>
+        </ul>
+        <br/>
+        <br/>
+        <br/>
 
 The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
     <p align="center">
@@ -246,9 +246,7 @@ The next “Hardware” screen allows you to configure the VM’s memory and CPU
     <br/>
     <br/>
 
-    <p>
-    <br/>
-    Hit Next
+Hit Next
     </p><br/>
     <br/>
     <br/>
@@ -264,10 +262,10 @@ For the Virtual Hard disk, I decreased to 30 Gigs:
 
   
           
-        <p>Hit Next</p>
-            <br/>
-            <br/>
-            <br/>
+Hit Next
+    <br/>
+    <br/>
+    <br/>
 
 Finally you’ll see a Summary of what you just configured:  
     <p align="center">
@@ -276,21 +274,20 @@ Finally you’ll see a Summary of what you just configured:
     <br /></p>
     <br/>
     <br/> 
-    <p>If you’re good to go, click Finish</p>
-            <br/>
-            <br/>
-            <br/>
+If you’re good to go, click Finish
+    <br/>
+    <br/>
+    <br/>
 
 Shortly you should see the new Windows10 virtual machine in VirtualBox:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
+Go ahead and hit the green arrow labeled Start at the top.</p>
     <br/>
-    <p>Go ahead and hit the green arrow labeled Start at the top.</p>
-            <br/>
-            <br/>
-            <br/>
+    <br/>
+    <br/>
 
 
 Eventually, you’ll be presented with the Windows Setup page:  
@@ -302,10 +299,10 @@ Eventually, you’ll be presented with the Windows Setup page:
     <br/>
 
   
-        <p>Hit Next</p>
-            <br/>
-            <br/>
-            <br/>
+Hit Next
+    <br/>
+    <br/>
+    <br/>
 
 Hit Install Now:  
     <p align="center">
@@ -334,10 +331,10 @@ For the operating system option, select Windows 10 Pro:
     <br/>
 
   
-        <p>Hit Next</p>
-            <br/>
-            <br/>
-            <br/>
+Hit Next
+   <br/>
+   <br/>
+   <br/>
 
 Accept the license terms:  
     <p align="center">
@@ -348,10 +345,10 @@ Accept the license terms:
     <br/>
 
   
-        <p>Hit Next</p>
-            <br/>
-            <br/>
-            <br/>
+Hit Next
+   <br/>
+   <br/>
+   <br/>
 
 Now choose the second option Custom: Install Windows only (advanced)  
     <p align="center">
