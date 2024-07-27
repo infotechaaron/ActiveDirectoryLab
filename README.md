@@ -166,6 +166,7 @@ At this point, our tutorial is going to be pretty much concluded.
     <br/>
 <ol style="list-style-type: lower-alpha;">
 <li>Go to the Microsoft download center by opening the following link in a new tab:<a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
+<li>It might prompt you to Login or fill out some info like your name, email, job title, etc...(but it's totally legit)<br /><br /><br /></li>
 <li>Scroll down and select the &ldquo;Download tool now&rdquo; button:<br /><br /><br /></li>
            <p align="center">
     <br/>
