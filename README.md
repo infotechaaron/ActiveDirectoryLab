@@ -4,7 +4,8 @@
 
 ## Description
 
-In this lab we're to walk through how to create an Active Directory home lab Environment using Oracle Virtual Box. Configuring and running this lab will definitely help develop your understanding of how active directory and windows networking works, so I'd highly recommend running through it a couple times and then eventually try to build it on your without using this tutorial.
+In this lab we're to walk through how to create an Active Directory home lab Environment using Oracle Virtual Box. Configuring and running this lab will definitely help develop your understanding of how active directory and windows networking works, so I'd highly recommend running through it a couple times and then eventually try to build it on your without using this tutorial. This environment we're building is a pretty basic Windows networking environment with Active Directory, a small number of networking services and is common in many of today’s schools and organizations. So sit back, relax or better yet...copy what I'm doing. It will help you if you're trying to get into IT or wanting to learn more about Virtual Machines and Active Directory. Enjoy!
+
 
 ## Languages and Programs Used
 
@@ -23,7 +24,27 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 <br /></p>
 <br />
 
-#### **Part 1: Installing VirtualBox**
+
+Just to give a high-level overview of what we're going to do in this lab, I’ll have you first refer to the network diagram so that you can look at to get an idea of what’s accomplished in this tutorial.
+
+<ul>
+<li>The first thing we're going to do is download and install Oracle VirtualBox, which is what we're going to use to run our virtual machines.</li>
+<li>After that's installed, we're going to download a Windows 10 ISO and a Server 2019 ISO that we're going to use to install the two operating systems on two separate virtual machines.</li>
+<li>Next, after we have everything downloaded and installed, we're going to create our first virtual machine, which is going to be our domain controller, which is going to house Active Directory.</li>
+<li>We're going to give this virtual machine two network adapters: one is going to be used to connect to the outside internet, and the other one is going to be used to connect to the VirtualBox private network that the clients are going to connect to.</li>
+<li>After our virtual machine is created, we're going to install Server 2019 on it and then we're going to assign IP addressing for the internal network. The external network will automatically get IP addressing from your home network or your home router, so we don't have to worry about properly subnetting and what/not (that&rsquo;s for a later video lol).</li>
+<li>After we have IP addressing set up, we're going to name the server and then we're going to install Active Directory and create our domain.</li>
+<li>Then, we're going to configure that and routing so the clients on the private network can reach the internet through the domain controller.</li>
+<li>Next, we're going to set up DHCP on the domain controller so when we create our Windows 10 machine (which will automatically get an IP address).</li>
+<li>The last thing we do on the domain controller before we create our client virtual machine is we're going to run a PowerShell script that will automatically create a thousand users in Active Directory, and I'll do a quick rundown through the script and explain what each line is so you can kind of get an intuition on how PowerShell is useful and what kind of things you can use it for.</li>
+<li>After creating the users, we're going to create another virtual machine and install Windows 10 on it, and that virtual machine will be connected to the private VirtualBox network. We're going to name that machine "Client1" and join it to the domain, and then we're going to log into it with one of our domain accounts.</li>
+</ul>
+
+At this point, our tutorial is going to be pretty much concluded.
+<br />
+<br />
+
+### **Part 1: Installing VirtualBox**
 
 1.  Download VirtualBox from the website by opening the following link in a new tab: <https://www.virtualbox.org/>
     1.  Click blue Download button
