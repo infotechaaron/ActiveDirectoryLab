@@ -23,7 +23,7 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 <p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Oracle VirtualBox</strong>:&nbsp;<a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></span></p>
 </li>
 <li>
-<p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Server 2019 ISO</strong>:&nbsp;<a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></span></p>
+<p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Server 2019 ISO</strong>:&nbsp;<a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019</a></span></p>
 </li>
 <li>
 <p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Windows 10 ISO</strong>:&nbsp;<a href="https://www.microsoft.com/en-us/software-download/windows10">https://www.microsoft.com/en-us/software-download/windows10</a></span></p>
