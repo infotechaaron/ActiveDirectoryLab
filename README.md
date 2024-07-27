@@ -34,7 +34,7 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 ## Network Diagram:
 <p align="center">
 <br/>
-<img src="https://i.imgur.com/x12bzqc.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
+<img src="https://i.imgur.com/x12bzqc.png" height="90%" width="90%" alt="Microsoft Azure Virtual Machine"/>
 <br /></p>
 <br />
 
@@ -465,7 +465,7 @@ At this point, our tutorial is going to be pretty much concluded.
 <li>One will be dedicated for the internet and will be running <em>Network Address Translation (NAT)</em>.</li>
 <li>The other will be dedicated for the <em>internal VMware network.</em></li>
 </ol>
-<p align="center"><img src="https://i.imgur.com/x12bzqc.png" alt="Microsoft Azure Virtual Machine" width="80%" height="80%" /> </p>
+<p align="center"><img src="https://i.imgur.com/x12bzqc.png" alt="Microsoft Azure Virtual Machine" width="90%" height="90%" /> </p>
 <p><br /> </p>
 <p>So the first adapter (Adapter 1) is the one that comes pre-configured. This will connect to the house's internet. Just leave that as <strong>NAT</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/QYAyPyi.png" alt="" width="80%" height="80%" /></p>
