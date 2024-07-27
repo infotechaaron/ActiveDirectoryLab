@@ -176,7 +176,7 @@ At this point, our tutorial is going to be pretty much concluded.
     <br/>
     <br/>
 
-## Part 2: Configuring VirtualBox with both a Windows 10 VM and a Windows Server 2019 VM
+## Part 2: Configuring VirtualBox with the first Windows 10 VM
 <ul>
 
 <ol>
@@ -392,3 +392,7 @@ At this point, our tutorial is going to be pretty much concluded.
 <li>Username: aaron</li>
 <li>Password: Neverhappened86</li>
 </ul>
+
+
+
+## Part 3: Configuring VirtualBox with the second Windows Server 2019 VM
