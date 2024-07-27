@@ -452,42 +452,29 @@ At this point, our tutorial is going to be pretty much concluded.
 <p style="text-align: center;"><strong>&nbsp;<img src="https://i.imgur.com/zPkFLKM.png" alt="" width="80%" height="80%" /></strong></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>Over to VirtualBox again, hit <strong>New</strong>:</p>
-<p><img src="https://camo.githubusercontent.com/eea8dab18a4de44aed02aaa9c560ce7cb9c8dfa66c3f3f17f32be1e5228e6ce0/68747470733a2f2f692e696d6775722e636f6d2f6a715a367262352e706e67" alt="" width="80%" height="80%" /></p>
-<p>&nbsp;</p>
-<p>Fill in the info shown below and then <strong>Next</strong>:</p>
-<p><img src="https://i.imgur.com/9lAZDch.png" alt="" width="80%" height="80%" /></p>
-<p>&nbsp;</p>
-<p>Name:&nbsp;<strong>DC-Server2019</strong></p>
-<p>Folder:<strong> same as before</strong></p>
-<p>ISO:<strong> the one just downloaded</strong></p>
-<p><strong>Checkbox</strong> for Skip Unattended Installation</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /><br />For the &ldquo;Hardware&rdquo; screen I'll do the same and Hit <strong>Next&nbsp;</strong>(again keep in mind that this will be relying on your physical computer&rsquo;s resources):</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/TQG3cTD.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /><br /> Just for the installation processe, I:</p>
-<ul>
-<li>Increased the Base Memory to <strong>4096 MB</strong> (4 Gigs)</li>
-<li>Decreased the CPU to <strong>3 Processors </strong></li>
-</ul>
-<p style="text-align: left;"><em>(it just makes it go a whole lot quicker. I'll most likely reduce these number after installation. Again, If you notice these setting eating too much of you host's resources, by all means lower these)</em></p>
-<p style="text-align: left;"><br /><br /><br /></p>
-<p><br /><br /> For the Virtual Hard disk, I decreased to <strong>30 Gigs&nbsp;</strong>and&nbsp;Hit <strong>Next</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/VOtgko0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br /><br /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Here's the summary page again:</p>
-<p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/eR9X62G.png" alt="" width="80%" height="80%" /></strong></p>
-<p style="text-align: center;">&nbsp;Looks good.&nbsp;Hit <strong>Finish</strong></p>
-<p style="text-align: center;">&nbsp;</p>
-<p>&nbsp;</p>
-<p>Then the new DC-Server2019 pops up in VirtualBox Manager:</p>
-<p style="text-align: center;"><strong>&nbsp;<img src="https://i.imgur.com/zPkFLKM.png" alt="" width="80%" height="80%" /></strong></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>Before starting or domain controller first go to <strong>Settings</strong> &gt; <strong>Advanced</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/RL8GVRD.png" alt="" width="80%" height="80%" /></p>
 <p>Here, change both <em>Shared Clipboard</em> and <em>Drag'n'Drop</em> to <strong>Bidirectional</strong>.</p>
 <p><em>This simply means you can use Ctl C and&nbsp; Ctrl V (Copy and Paste) withing the VM.</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Lastly, before we start our domain controller Server 2019 vm, head over to <strong>Settings</strong> &gt; <strong>Network</strong></p>
+<p>If you remember from the diagram, for our domain controller we&nbsp;want to have 2 network interface cards (NICs):</p>
+<ol>
+<li>One will be dedicated for the internet and will be running <em>Network Address Translation (NAT)</em>.</li>
+<li>The other will be dedicated for the <em>internal VMware network.</em></li>
+</ol>
+<p align="center"><img src="https://i.imgur.com/x12bzqc.png" alt="Microsoft Azure Virtual Machine" width="80%" height="80%" /> </p>
+<p><br /> </p>
+<p>So the first adapter (Adapter 1) is the one that comes pre-configured. This will connect to the house's internet. Just leave that as <strong>NAT</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/QYAyPyi.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>We need to add one more adapter&nbsp;for the internal network.</p>
+<p>So make this change. Go to:</p>
+<p><strong>Adapter 2 </strong>&gt;<strong> Enable Network Adapter </strong>&gt;<strong> Internal Network </strong>&gt;<strong> OK</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/JSh6bmd.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So now our VM is pretty much configured, but it's still empty. We'll go ahead and <strong>double-click</strong> it to start it.</p>
