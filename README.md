@@ -211,7 +211,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
     <br/>
 
-    Hit the New star-looking button at the top:  
+Hit the New star-looking button at the top:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/a0aCej0.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -220,7 +220,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Give your VM a Name and specify where you want to store VM files:  
+Give your VM a Name and specify where you want to store VM files:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/v2MjLCd.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -236,7 +236,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
             <br/>
 
-    The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
+The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/TQG3cTD.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -254,7 +254,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
     <br/>
 
-    For the Virtual Hard disk, I decreased to 30 Gigs:  
+For the Virtual Hard disk, I decreased to 30 Gigs:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/VOtgko0.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -269,7 +269,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
             <br/>
 
-    Finally you’ll see a Summary of what you just configured:  
+Finally you’ll see a Summary of what you just configured:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/AfUDgv1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -281,7 +281,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
             <br/>
 
-    Shortly you should see the new Windows10 virtual machine in VirtualBox:  
+Shortly you should see the new Windows10 virtual machine in VirtualBox:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -293,7 +293,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
 
 
-    Eventually, you’ll be presented with the Windows Setup page:  
+Eventually, you’ll be presented with the Windows Setup page:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/piVokV5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -307,7 +307,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
             <br/>
 
-    Hit Install Now:  
+Hit Install Now:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/C0Cu9lA.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -316,7 +316,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Once you’re presented with Activate Windows screen; select “I don’t have a product key” at the bottom to the left of the Next button:  
+Once you’re presented with Activate Windows screen; select “I don’t have a product key” at the bottom to the left of the Next button:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/139DaiG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -325,7 +325,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    For the operating system option, select Windows 10 Pro:  
+For the operating system option, select Windows 10 Pro:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/j1kgeQT.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -339,7 +339,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
             <br/>
 
-    Accept the license terms:  
+Accept the license terms:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/atn5HDr.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -353,7 +353,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
             <br/>
             <br/>
 
-    Now choose the second option Custom: Install Windows only (advanced)  
+Now choose the second option Custom: Install Windows only (advanced)  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/tQdQFKe.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -362,7 +362,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Hit next on the following screen:  
+Hit next on the following screen:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/EkBjFc3.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -371,7 +371,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Now you will see the installation of Windows 10 has started:  
+Now you will see the installation of Windows 10 has started:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/y5YPtpz.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -380,7 +380,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Windows will restart automatically to finalize installation  
+Windows will restart automatically to finalize installation  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/RqOYd65.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -389,7 +389,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Choose your region (United States):  
+Choose your region (United States):  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/MZFxlUP.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -398,7 +398,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Hit Yes:  
+Hit Yes:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/K6GBSdD.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -407,7 +407,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Hit Skip:  
+Hit Skip:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/16vfa5Q.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -416,7 +416,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Select “Set up for personal use” and “Next”:  
+Select “Set up for personal use” and “Next”:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/zSzJQXm.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -425,7 +425,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Select “Offline account” on bottom left:  
+Select “Offline account” on bottom left:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/AR4rmuk.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -434,7 +434,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Then “Limited experience”:  
+Then “Limited experience”:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/WbUbVn3.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -443,7 +443,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Input a username and hit Next:  
+Input a username and hit Next:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/ZfFlF1N.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -452,7 +452,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Input a Password and hit Next:  
+Input a Password and hit Next:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/ThUV5vG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -461,7 +461,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Confirm your Password:  
+Confirm your Password:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/dLNYvbI.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -470,7 +470,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Answer the Security Questions:  
+Answer the Security Questions:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/Y2HQnmb.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -479,7 +479,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Select “Not now”:  
+Select “Not now”:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/yFb9aJ1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -488,7 +488,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    You can do what you like here, but I always toggle these to No:  
+You can do what you like here, but I always toggle these to No:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/8ssdysG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -497,7 +497,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Hit Skip:  
+Hit Skip:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/o96OZDB.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -506,7 +506,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Select “Not now”:  
+Select “Not now”:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/MarvDl1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
@@ -515,7 +515,7 @@ While that’s downloading, hop over to VirtualBox and we’ll start creating th
     <br/>
 
 
-    Finally, we’re up and running:  
+Finally, we’re up and running:  
     <p align="center">
     <br/>
     <img src="https://i.imgur.com/thcIT4l.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
