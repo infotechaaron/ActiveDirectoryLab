@@ -483,4 +483,5 @@ At this point, our tutorial is going to be pretty much concluded.
 <p>&nbsp;</p>
 <p>Before starting or domain controller first go to <strong>Settings</strong> &gt; <strong>Advanced</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/RL8GVRD.png" alt="" width="80%" height="80%" /></p>
-<p>Here, change both <em>Shared Clipboard</em> and <em>Drag'n'Drop</em> to <strong>Bidirectional</strong>. This simply means you can use Ctl C and&nbsp; Ctrl V (Copy and Paste) withing the VM.</p>
+<p>Here, change both <em>Shared Clipboard</em> and <em>Drag'n'Drop</em> to <strong>Bidirectional</strong>.</p>
+<p><em>This simply means you can use Ctl C and&nbsp; Ctrl V (Copy and Paste) withing the VM.</em></p>
