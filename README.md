@@ -411,7 +411,6 @@ At this point, our tutorial is going to be pretty much concluded.
 
 
 ## Create the Windows 10 VM
-
 <p>Over to VirtualBox again, hit <strong>New</strong>:</p>
 <p><img src="https://camo.githubusercontent.com/eea8dab18a4de44aed02aaa9c560ce7cb9c8dfa66c3f3f17f32be1e5228e6ce0/68747470733a2f2f692e696d6775722e636f6d2f6a715a367262352e706e67" alt="" width="80%" height="80%" /></p>
 <p>&nbsp;</p>
@@ -439,14 +438,14 @@ At this point, our tutorial is going to be pretty much concluded.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Here's the summary page again:</p>
-<p><strong><img src="https://i.imgur.com/eR9X62G.png" alt="" width="80%" height="80%" /></strong></p>
-<p>&nbsp;Looks good.&nbsp;Hit <strong>Finish</strong></p>
-<p>&nbsp;</p>
+<p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/eR9X62G.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;Looks good.&nbsp;Hit <strong>Finish</strong></p>
+<p style="text-align: center;">&nbsp;</p>
 <p>&nbsp;</p>
 <p>Then the new DC-Server2019 pops up in VirtualBox Manager:</p>
-<p><strong>&nbsp;<img src="https://i.imgur.com/zPkFLKM.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;"><strong>&nbsp;<img src="https://i.imgur.com/zPkFLKM.png" alt="" width="80%" height="80%" /></strong></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Before starting or domain controller first go to <strong>Settings</strong> &gt; <strong>Advanced</strong>:</p>
-<p><img src="https://i.imgur.com/RL8GVRD.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/RL8GVRD.png" alt="" width="80%" height="80%" /></p>
 <p>Here, change both <em>Shared Clipboard</em> and <em>Drag'n'Drop</em> to <strong>Bidirectional</strong>. This simply means you can use Ctl C and&nbsp; Ctrl V (Copy and Paste) withing the VM.</p>
