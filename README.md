@@ -226,12 +226,15 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <img src="https://i.imgur.com/v2MjLCd.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
-        <p>
-        Name: **Windows10-VM-mydomain**  
-        Folder: **C:\Users\guild\VirtualBox VMs**
-        ISO Image: **C:\Users\guild\VirtualBox VMs\Windows.iso** (choose location where you saved it to)   
-        Skip Unattended Installation: **Check the box** (this allows to install the OS manually)
-        </p>
+            <ul>
+            <li>Name: <strong>Windows10-VM-mydomain</strong></li>
+            <li>Folder: <strong>C:\Users\guild\VirtualBox VMs</strong></li>
+            <li>ISO Image: <strong>C:\Users\guild\VirtualBox VMs\Windows.iso</strong> (choose location where you saved it to)</li>
+            <li>Skip Unattended Installation: <strong>Check the box</strong> (this allows to install the OS manually) </li>
+            </ul>
+            <br/>
+            <br/>
+            <br/>
 
     3.  The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
                   <p align="center">
@@ -241,7 +244,10 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
         Just for the installation processed, I increased the Base Memory to 4096 MB (4 Gigs) and increased the CPU to 3 Processors (it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these.)
 
-        </p>Hit Next</p>
+        <p>Hit Next</p>
+            <br/>
+            <br/>
+            <br/>
 
     5.  For the Virtual Hard disk, I decreased to 30 Gigs:  
                   <p align="center">
@@ -254,6 +260,9 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
   
           
         <p>Hit Next</p>
+            <br/>
+            <br/>
+            <br/>
 
     6.  Finally you’ll see a Summary of what you just configured:  
                   <p align="center">
@@ -263,7 +272,9 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
     <br/> 
         <p>If you’re good to go, click Finish</p>
-
+            <br/>
+            <br/>
+            <br/>
 
     7.  Shortly you should see the new Windows10 virtual machine in VirtualBox:  
                   <p align="center">
@@ -276,7 +287,9 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
   
           
         <p>Go ahead and hit the green arrow labeled Start at the top.</p>
-
+            <br/>
+            <br/>
+            <br/>
 
 
     8.  Eventually, you’ll be presented with the Windows Setup page:  
@@ -289,7 +302,9 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
   
         <p>Hit Next</p>
-
+            <br/>
+            <br/>
+            <br/>
 
     9.  Hit Install Now:  
                   <p align="center">
@@ -319,7 +334,9 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
   
         <p>Hit Next</p>
-
+            <br/>
+            <br/>
+            <br/>
 
     12. Accept the license terms:  
                   <p align="center">
@@ -331,7 +348,9 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
   
         <p>Hit Next</p>
-
+            <br/>
+            <br/>
+            <br/>
 
     13. Now choose the second option Custom: Install Windows only (advanced)  
                   <p align="center">
@@ -505,7 +524,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
 
 
-Create a username and password once Windows is done installing:  
+Create a username and password once Windows is done installing (below is my example): 
   
 Username: aaron  
 Password: Neverhappened86
