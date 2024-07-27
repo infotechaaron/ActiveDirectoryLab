@@ -251,7 +251,7 @@ At this point, our tutorial is going to be pretty much concluded.
 <br/>
 
 
-## Part 2.1: Create the Windows 10 VM
+### Part 2.1: Create the Windows 10 VM
 <p>&nbsp;</p>
 <p>While that&rsquo;s downloading, hop over to VirtualBox and we&rsquo;ll start creating the VM:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/jqZ6rb5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
@@ -408,9 +408,11 @@ At this point, our tutorial is going to be pretty much concluded.
 <li>When it's finished downloading, I'll meet back over at VirtualBox.</li>
 </ul>
 <p>&nbsp;</p>
+<br/>
+<br/>
+<br/>
 
-
-## Part 3.1: Create the Server 2019 VM
+### Part 3.1: Create the Server 2019 VM
 <p>Over to VirtualBox again, hit <strong>New</strong>:</p>
 <p><img src="https://camo.githubusercontent.com/eea8dab18a4de44aed02aaa9c560ce7cb9c8dfa66c3f3f17f32be1e5228e6ce0/68747470733a2f2f692e696d6775722e636f6d2f6a715a367262352e706e67" alt="" width="80%" height="80%" /></p>
 <p>&nbsp;</p>
