@@ -226,12 +226,12 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <img src="https://i.imgur.com/v2MjLCd.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
-
+        <p>
         Name: **Windows10-VM-mydomain**  
         Folder: **C:\Users\guild\VirtualBox VMs**
         ISO Image: **C:\Users\guild\VirtualBox VMs\Windows.iso** (choose location where you saved it to)   
         Skip Unattended Installation: **Check the box** (this allows to install the OS manually)
-
+        </p>
 
     3.  The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
                   <p align="center">
@@ -241,7 +241,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
         Just for the installation processed, I increased the Base Memory to 4096 MB (4 Gigs) and increased the CPU to 3 Processors (it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these.)
 
-        Hit Next
+        </p>Hit Next</p>
 
     5.  For the Virtual Hard disk, I decreased to 30 Gigs:  
                   <p align="center">
@@ -253,7 +253,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
   
           
-        Hit Next
+        <p>Hit Next</p>
 
     6.  Finally you’ll see a Summary of what you just configured:  
                   <p align="center">
@@ -261,11 +261,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <img src="https://i.imgur.com/AfUDgv1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
-    <br/>
-
-  
-          
-        If you’re good to go, click Finish
+    <br/> 
+        <p>If you’re good to go, click Finish</p>
 
 
     7.  Shortly you should see the new Windows10 virtual machine in VirtualBox:  
@@ -278,7 +275,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
   
           
-        Go ahead and hit the green arrow labeled Start at the top.
+        <p>Go ahead and hit the green arrow labeled Start at the top.</p>
 
 
 
@@ -291,7 +288,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
   
-        Hit Next
+        <p>Hit Next</p>
 
 
     9.  Hit Install Now:  
@@ -306,7 +303,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     10.  Once you’re presented with Activate Windows screen; select “I don’t have a product key” at the bottom to the left of the Next button:  
                   <p align="center">
     <br/>
-    <img src="[https://i.imgur.com/jqZ6rb5.png](https://i.imgur.com/139DaiG.png)" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <img src="https://i.imgur.com/139DaiG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
     <br/>
@@ -321,7 +318,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
   
-        Hit Next
+        <p>Hit Next</p>
 
 
     12. Accept the license terms:  
@@ -333,7 +330,7 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
   
-        Hit Next
+        <p>Hit Next</p>
 
 
     13. Now choose the second option Custom: Install Windows only (advanced)  
