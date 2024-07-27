@@ -12,10 +12,24 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 -   **PowerShell**
 -   **Oracle VirtualBox**
 
-## Environments Used
+## Operating Systems
 
 -   **Windows 10 ISO**
 -   **Windows Server 2019 ISO**
+
+## Download Links
+<ul>
+<li>
+<p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Oracle VirtualBox</strong>:&nbsp;<a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></span></p>
+</li>
+<li>
+<p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Server 2019 ISO</strong>:&nbsp;<a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a></span></p>
+</li>
+<li>
+<p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Windows 10 ISO</strong>:&nbsp;<a href="https://www.microsoft.com/en-us/software-download/windows10">https://www.microsoft.com/en-us/software-download/windows10</a></span></p>
+</li>
+</ul>
+<p>&nbsp;</p>
 
 ## Network Diagram:
 <p align="center">
@@ -44,7 +58,11 @@ At this point, our tutorial is going to be pretty much concluded.
 <br />
 <br />
 
-### **Part 1: Installing VirtualBox**
+
+
+
+
+## Part 1: Installing VirtualBox
 
 1.  Download VirtualBox from the website by opening the following link in a new tab: <https://www.virtualbox.org/>
     1.  Click blue Download button
