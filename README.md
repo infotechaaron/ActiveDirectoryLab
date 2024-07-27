@@ -27,6 +27,14 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 
 1.  Download VirtualBox from the website by opening the following link in a new tab: <https://www.virtualbox.org/>
     1.  Click blue Download button
+    <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/EsLsrn0.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br />
+
+
+
     2.  Choose the platform (Windows hosts for me)<br/>
     <br/>
 2.  While that is downloading: Checkout the SHA256 checksums link on this page to determine if the file has been tampered with in transit (during the download):  
