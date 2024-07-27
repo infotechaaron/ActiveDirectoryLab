@@ -472,7 +472,7 @@ At this point, our tutorial is going to be pretty much concluded.
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p>We need to add one more adapter&nbsp;for the internal network. So make this change, go to:</p>
-<p><strong>Adapter 2 </strong>&gt;<strong> Enable Network Adapter </strong>&gt;<strong> Internal Network </strong>&gt;<strong> OK</strong></p>
+<p style="text-align: center;"><strong>Adapter 2 </strong>&gt;<strong> Enable Network Adapter </strong>&gt;<strong> Internal Network </strong>&gt;<strong> OK</strong></p>
 <p style="text-align: center;"><img src="https://i.imgur.com/JSh6bmd.png" alt="" width="80%" height="80%" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
