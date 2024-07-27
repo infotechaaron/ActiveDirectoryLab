@@ -203,16 +203,16 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
 
 ### Create Windows VM
 
-2.  While that’s downloading, hop over to VirtualBox and we’ll start creating the VM:
-          <p align="center">
+While that’s downloading, hop over to VirtualBox and we’ll start creating the VM:
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
     <br/>
 
-    1.  Hit the New star-looking button at the top:  
-          <p align="center">
+    Hit the New star-looking button at the top:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/a0aCej0.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -220,8 +220,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    2.  Give your VM a Name and specify where you want to store VM files:  
-                  <p align="center">
+    Give your VM a Name and specify where you want to store VM files:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/v2MjLCd.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -236,21 +236,26 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
             <br/>
             <br/>
 
-    3.  The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
-                  <p align="center">
+    The next “Hardware” screen allows you to configure the VM’s memory and CPU Processors (keep in mind that this will be relying on your physical computer’s resources):  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/TQG3cTD.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
+    <br />
+    Just for the installation processed, I increased the Base Memory to 4096 MB (4 Gigs) and increased the CPU to 3 Processors (it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these.)
+    </p><br/>
     <br/>
-        Just for the installation processed, I increased the Base Memory to 4096 MB (4 Gigs) and increased the CPU to 3 Processors (it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these.)
+    <br/>
 
-        <p>Hit Next</p>
-            <br/>
-            <br/>
-            <br/>
+    <p>
+    <br/>
+    Hit Next
+    </p><br/>
+    <br/>
+    <br/>
+    <br/>
 
-    5.  For the Virtual Hard disk, I decreased to 30 Gigs:  
-                  <p align="center">
+    For the Virtual Hard disk, I decreased to 30 Gigs:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/VOtgko0.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -264,36 +269,32 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
             <br/>
             <br/>
 
-    6.  Finally you’ll see a Summary of what you just configured:  
-                  <p align="center">
+    Finally you’ll see a Summary of what you just configured:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/AfUDgv1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
     <br/> 
-        <p>If you’re good to go, click Finish</p>
+    <p>If you’re good to go, click Finish</p>
             <br/>
             <br/>
             <br/>
 
-    7.  Shortly you should see the new Windows10 virtual machine in VirtualBox:  
-                  <p align="center">
+    Shortly you should see the new Windows10 virtual machine in VirtualBox:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/jqZ6rb5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br/>
-    <br/>
-
-  
-          
-        <p>Go ahead and hit the green arrow labeled Start at the top.</p>
+    <p>Go ahead and hit the green arrow labeled Start at the top.</p>
             <br/>
             <br/>
             <br/>
 
 
-    8.  Eventually, you’ll be presented with the Windows Setup page:  
-                  <p align="center">
+    Eventually, you’ll be presented with the Windows Setup page:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/piVokV5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -306,8 +307,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
             <br/>
             <br/>
 
-    9.  Hit Install Now:  
-                  <p align="center">
+    Hit Install Now:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/C0Cu9lA.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -315,8 +316,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    10.  Once you’re presented with Activate Windows screen; select “I don’t have a product key” at the bottom to the left of the Next button:  
-                  <p align="center">
+    Once you’re presented with Activate Windows screen; select “I don’t have a product key” at the bottom to the left of the Next button:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/139DaiG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -324,8 +325,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    11. For the operating system option, select Windows 10 Pro:  
-                  <p align="center">
+    For the operating system option, select Windows 10 Pro:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/j1kgeQT.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -338,8 +339,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
             <br/>
             <br/>
 
-    12. Accept the license terms:  
-                  <p align="center">
+    Accept the license terms:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/atn5HDr.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -352,8 +353,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
             <br/>
             <br/>
 
-    13. Now choose the second option Custom: Install Windows only (advanced)  
-                  <p align="center">
+    Now choose the second option Custom: Install Windows only (advanced)  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/tQdQFKe.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -361,8 +362,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    14. Hit next on the following screen:  
-                  <p align="center">
+    Hit next on the following screen:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/EkBjFc3.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -370,8 +371,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    15. Now you will see the installation of Windows 10 has started:  
-                  <p align="center">
+    Now you will see the installation of Windows 10 has started:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/y5YPtpz.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -379,8 +380,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    16. Windows will restart automatically to finalize installation  
-                  <p align="center">
+    Windows will restart automatically to finalize installation  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/RqOYd65.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -388,8 +389,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    17. Choose your region (United States):  
-                  <p align="center">
+    Choose your region (United States):  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/MZFxlUP.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -397,8 +398,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    18. Hit Yes:  
-                  <p align="center">
+    Hit Yes:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/K6GBSdD.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -406,8 +407,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    19. Hit Skip:  
-                  <p align="center">
+    Hit Skip:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/16vfa5Q.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -415,8 +416,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    20. Select “Set up for personal use” and “Next”:  
-                  <p align="center">
+    Select “Set up for personal use” and “Next”:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/zSzJQXm.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -424,8 +425,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    21. Select “Offline account” on bottom left:  
-                  <p align="center">
+    Select “Offline account” on bottom left:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/AR4rmuk.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -433,8 +434,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    22. Then “Limited experience”:  
-                  <p align="center">
+    Then “Limited experience”:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/WbUbVn3.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -442,8 +443,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    23. Input a username and hit Next:  
-                  <p align="center">
+    Input a username and hit Next:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/ZfFlF1N.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -451,8 +452,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    24. Input a Password and hit Next:  
-                  <p align="center">
+    Input a Password and hit Next:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/ThUV5vG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -460,8 +461,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    25. Confirm your Password:  
-                  <p align="center">
+    Confirm your Password:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/dLNYvbI.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -469,8 +470,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    26. Answer the Security Questions:  
-                  <p align="center">
+    Answer the Security Questions:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/Y2HQnmb.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -478,8 +479,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    27. Select “Not now”:  
-                  <p align="center">
+    Select “Not now”:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/yFb9aJ1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -487,8 +488,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    28. You can do what you like here, but I always toggle these to No:  
-                  <p align="center">
+    You can do what you like here, but I always toggle these to No:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/8ssdysG.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -496,8 +497,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    29. Hit Skip:  
-          <p align="center">
+    Hit Skip:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/o96OZDB.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -505,8 +506,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    30. Select “Not now”:  
-                  <p align="center">
+    Select “Not now”:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/MarvDl1.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
@@ -514,8 +515,8 @@ The SHA256 checksums link will open a new tab with a list of hashes (shown below
     <br/>
 
 
-    31. Finally, we’re up and running:  
-                  <p align="center">
+    Finally, we’re up and running:  
+    <p align="center">
     <br/>
     <img src="https://i.imgur.com/thcIT4l.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
