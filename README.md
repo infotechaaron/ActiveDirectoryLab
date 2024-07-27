@@ -176,7 +176,7 @@ At this point, our tutorial is going to be pretty much concluded.
     <br/>
     <br/>
 
-#### **Part 2: Configuring VirtualBox with a Windows OS**
+## Part 2: Configuring VirtualBox with a Windows OS
 <ul>
 
 <ol>
