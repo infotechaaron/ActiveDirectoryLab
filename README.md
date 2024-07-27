@@ -251,7 +251,7 @@ At this point, our tutorial is going to be pretty much concluded.
 <br/>
 
 
-## Create Windows VM
+## Create the Windows 10 VM
 <p>&nbsp;</p>
 <p>While that&rsquo;s downloading, hop over to VirtualBox and we&rsquo;ll start creating the VM:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/jqZ6rb5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
