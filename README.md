@@ -28,8 +28,8 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 <li>
 <p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Windows 10 ISO</strong>:&nbsp;<a href="https://www.microsoft.com/en-us/software-download/windows10">https://www.microsoft.com/en-us/software-download/windows10</a></span></p>
 </li>
+<li><span class="yt-core-attributed-string--link-inherit-color" dir="auto">You can find the PowerShell script files right here in this repository.</span></li>
 </ul>
-<p>&nbsp;</p>
 
 ## Network Diagram:
 <p align="center">
