@@ -35,16 +35,16 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 
 
 
-    2.  Choose the platform (Windows hosts for me)<br/>
-    <br/>
-2.  While that is downloading: Checkout the SHA256 checksums link on this page to determine if the file has been tampered with in transit (during the download):  
+    2.  Choose the platform - **Windows hosts** for me.
+    3.  When you're done downloading the installer, you're going to also want to download the **Extension Pack**:<br/>
     <p align="center">
     <br/>
-    <img src="https://i.imgur.com/yqIChyh.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <img src="https://i.imgur.com/Jij6ysP.png" height="80%" width="80%" alt="Microsoft Azure Virtual Machine"/>
     <br /></p>
     <br />
-
-The SHA256 checksums link will open a new tab with a list of hashes (shown below).<br/>
+    <br/>
+2.  While that is downloading: Checkout the SHA256 checksums links (within the green square on th screenshot) on this page to determine if the file has been tampered with in transit (during the download).
+    1.  The SHA256 checksums link will open a new tab with a list of hashes (shown below).<br/>
 
 <ul>
 <li>Now the VirtualBox installer is in the Downloads folder:</li>
