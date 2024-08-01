@@ -641,3 +641,101 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>&nbsp;</p>
 <p>Now notice that we have two network adapters. So we have to figure out which one is which and name them appropriately because we&rsquo;ll be using them later when we&rsquo;re setting up routing:</p>
 <p style="text-align: center;">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/igymAbm.png" alt="" width="619" height="535" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So, let&rsquo;s check out the Ethernet2 one (it might be named different for you). Right-click on <strong>Ethernet2</strong> &gt;&gt; <strong>Status</strong> &gt;&gt; <strong>Details</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/QjPtBYI.png" alt="" width="556" height="461" /></p>
+<p>This looks like your proper home ip address, the one that&rsquo;s connected to your home network.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So, let&rsquo;s rename this one by: <strong>right-clicking</strong> &gt;&gt; <strong>rename</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/3ohgbIt.png" alt="" width="559" height="217" /></p>
+<p>Then rename it to <strong>_INTERNET_</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now let&rsquo;s look at the other adapter Ethernet:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Sc7sZ6z.png" alt="" width="556" height="461" /></p>
+<p>This adapter is the internet adapter and has been given an Autoconfiguration IPv4 address of 169.254.164.48. This basically means that this adapter was looking for a DHCP server in order to get an IP address, but it was unable to find the DHCP server. So, we know it&rsquo;s the internal adapter.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So go ahead and rename this adapter to <strong>x_INTERNAL_x</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/szvzGg1.png" alt="" width="559" height="459" /></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now we will give an ip address to our <strong>x_INTERNAL_x</strong> adapter.</p>
+<p>Right-click on the <strong>internal adapter</strong> &gt;&gt; <strong>Properties</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/XJdzknt.png" alt="" width="776" height="642" /></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Double-click on <strong>Internet Protocol Version 4</strong> &gt;&gt; <strong>Use the following IP address</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/62U26Xa.png" alt="" width="765" height="548" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Input the ip info from the Network Diagram:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/q9A5M1v.png" alt="" width="973" height="603" /></p>
+<p>&nbsp;</p>
+<p>We're going to assign the following ip address to our Internal:</p>
+<p>172.16.1 and then the mask 255.255.0.0</p>
+<p>We're not going to use a default gateway because the domain controller itself is going to serve as the default gateway. Remember the domain controller has two NICs, one on the internet and one on the inside network.</p>
+<p>For DNS server, when we install Active Directory, it automatically installs DNS, so for right now, configure this internal adapter to use itself as the DNS server. So, you can either enter its own ip address but even better would be to enter its loopback address of 127.0.0.1 which is kind of a generic address that refers to itself and it always up. So, whenever a computer pings like 127.0.0.1, they're actually pinging themselves.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/2oa0m06.png" alt="" width="513" height="366" /></p>
+<p style="text-align: left;">Hit <strong>OK</strong></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>Now let&rsquo;s rename this PC:</p>
+<p>right click the <strong>Start menu</strong> &gt;&gt; <strong>System</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/EAodX3O.png" alt="" width="339" height="458" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Click <strong>Rename this PC</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/0JylR43.png" alt="" width="603" height="541" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>Change the name to <strong>DC</strong> (which stands for Domain Controller):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/0R3xwu9.png" alt="" width="426" height="188" /></p>
+<p>Hit <strong>Next</strong>:</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Hit <strong>Restart Now</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/OsZgQCX.png" alt="" width="425" height="131" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The VM will restart:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/x2qfRoP.png" alt="" width="633" height="520" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Insert <strong>Ctrl+Alt+Del</strong> again:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/gBSv0bD.png" alt="" width="604" height="491" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Login with <strong>Password1</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/SNsSoIN.png" alt="" width="603" height="491" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
