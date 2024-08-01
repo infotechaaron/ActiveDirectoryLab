@@ -528,3 +528,25 @@ At this point, our tutorial is going to be pretty much concluded.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p>When Server2019 in fully installed, you&rsquo;ll be prompted to put in an admin password. I just used <strong>Password1</strong> for this example and select Finish:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/cTXrdTP.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The windows splash screen will show next. It is asking you to press Ctrl Alt Del. Because it&rsquo;s a virtual machine, you&rsquo;ll have to go to the VirtualBox Input tab on the top and select Ctrl Alt Del:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/HJUYvxa.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now we can login with our <strong>Password1</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/0iHMHxl.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Windows will apply a bunch of settings and will login:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/e7u6Dsd.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Hit <strong>Yes</strong> on the Network prompt on right:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ikrEBJ7.png" alt="" width="80%" height="80%" /></p>
