@@ -550,3 +550,94 @@ At this point, our tutorial is going to be pretty much concluded.
 <p>&nbsp;</p>
 <p>Hit <strong>Yes</strong> on the Network prompt on right:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/ikrEBJ7.png" alt="" width="80%" height="80%" /></p>
+Here is the HTML code with the integer values in the `width` and `height` attributes of the `img` tags replaced with `width="80%" height="80%"`:
+
+<p>&nbsp;</p>
+<p>The Server Manager will start up eventually. Go ahead and minimize it:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/gzBITmQ.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>You may notice that when we try to resize the VM, it stays small and not really user-friendly. This is where the Guest Edition Extension comes in which I had you download earlier. To start using the Guest Additions extension, go to <strong>Devices</strong> &gt;&gt; <strong>Insert Guest Additions CD image</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/B7ujwnF.png" alt="" width="80%" height="80%" /></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Then in the VM, go to <strong>File Explorer</strong> &gt;&gt; <strong>This PC</strong> &gt;&gt; <strong>CD Drive (D:) VirtualBox Guest Additions</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/oB4ZQqu.png" alt="" width="80%" height="80%" /></strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Double-click on the file that ends with amd64:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/HRiRZiq.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>You&rsquo;ll be prompted with an Install Wizard in which you just want to accept all defaults and keep selecting <strong>Next</strong> until it starts installing:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Gdatqi9.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/deKK91j.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Select <strong>I want to manually reboot later </strong>&gt; <strong>Finish</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/6TgvVlP.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now Shutdown the VM:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/FIZPZ3P.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/6qCnS7S.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now Start DC-Server2019 again (either double-click on VM on left or use the green Start arrow):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/KOXci5V.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Insert Ctrl+Alt+Del again:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/G5eqab6.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Login with <strong>Password1</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/62iw3HR.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now we can resize the VM screen and the mouse doesn&rsquo;t lag like before:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/sjg0QBF.png" alt="" width="80%" height="80%" /></p>
+<p>That&rsquo;s the benefit of installing the Guest Additions.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now we are going to setup our IP addressing. Looking back at the Network Diagram, we have two NICs. One that&rsquo;s dedicated to the internet and one that we&rsquo;re going to use for our internal network:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/pscHDRW.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>The one that's on the INTERNET will get an ip address automatically from your home router, so we don't have to do anything for that one. But for the Internal NIC, we will have to set up manually.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So, on the VM, click on the Network icon on the <strong>bottom right in the system tray</strong> &gt;&gt; <strong>then click on Network</strong> when the popup shows:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Xkk9f0M.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Select <strong>Change adapter options</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/EvOYQqU.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now notice that we have two network adapters. So we have to figure out which one is which and name them appropriately because we&rsquo;ll be using them later when we&rsquo;re setting up routing:</p>
+<p style="text-align: center;">&nbsp;</p>
