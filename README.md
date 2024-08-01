@@ -522,7 +522,8 @@ At this point, our tutorial is going to be pretty much concluded.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>The server will restart several times during this installation. Eventually it will get to a black screen that says, &ldquo;push any button to boot&rdquo;. Don&rsquo;t press anything at this point and it will boot to windows on its own:</p>
+<p>The server will restart several times during this installation. Eventually it will get to a black screen that says, &ldquo;push any button to boot&rdquo;.</p>
+<p>Don&rsquo;t press anything at this point and it will boot to windows on its own:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/w4xzdhV.png" alt="" width="80%" height="80%" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
