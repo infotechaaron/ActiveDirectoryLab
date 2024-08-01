@@ -40,7 +40,10 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 
 
 Just to give a high-level overview of what we're going to do in this lab, I’ll have you first refer to the network diagram so that you can look at to get an idea of what’s accomplished in this tutorial.
+<br />
+<br />
 
+<h2><strong>This tutorial is broken down into 10 steps:</strong>&nbsp;</h2>
 <ol>
 <li>The first thing we're going to do is download and install Oracle VirtualBox, which is what we're going to use to run our virtual machines.<br /><br /></li>
 <li>After that's installed, we're going to download a Windows 10 ISO and a Server 2019 ISO that we're going to use to install the two operating systems on two separate virtual machines.<br /><br /></li>
@@ -55,6 +58,7 @@ Just to give a high-level overview of what we're going to do in this lab, I’ll
 </ol>
 <br />
 At this point, our tutorial is going to be pretty much concluded.
+<br />
 <br />
 <br />
 <br />
