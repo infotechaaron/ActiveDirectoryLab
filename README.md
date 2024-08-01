@@ -868,3 +868,100 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>STEP 7:</h2>
+<p>Now, we're going to configure the Domain Controller for routing so the clients on the private network can reach the internet through the domain controller.</p>
+<p>Looking back at our network map, the next thing we're going to do is install <strong>RAS/NAT (Remote Access Server/Network Address Translation)</strong>.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/UkkJ58e.jpeg" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>The purpose of this installation is to enable our Windows 10 client to be on a private virtual network while still having access to the internet through the domain controller.</p>
+<p>By installing RAS and NAT on the domain controller, we will allow our clients to achieve this functionality.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>To do this, go to <strong>Add roles and features</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/KpZXEU5.png" alt="" width="80%" height="80%" /></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Hit <strong>Next</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/Steucxs.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Hit&nbsp;<strong><strong>Next</strong></strong></p>
+<p style="text-align: center;"><strong><strong><img src="https://i.imgur.com/xCqIxtR.png" alt="" width="80%" height="80%" /></strong></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">This is our server, hit<strong> Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/9fInicl.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">For Roles select&nbsp;<strong>Remote Access&nbsp;</strong>&gt;&gt;&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Pz3AgNY.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit <strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/BTl45Sl.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit <strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/GkuckmD.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Install&nbsp;<strong>Routing&nbsp;</strong>&gt;&gt;&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/9Z0sEch.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/kp6cuqc.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ioBk808.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/QyNC7LK.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Select<strong> Install</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/f3o6yyn.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Installation starts (this could take a long minute, so go grab some coffee and meet me back here in 5):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/OjoJD5Q.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>Finally it's done installing:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ATHWRjf.png" alt="" width="80%" height="80%" /></p>
