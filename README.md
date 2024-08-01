@@ -477,3 +477,53 @@ At this point, our tutorial is going to be pretty much concluded.
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>So now our VM is pretty much configured, but it's still empty. We'll go ahead and <strong>double-click</strong> it to start it.</p>
+<p>&nbsp;</p>
+<p>You should see the VirtualBox screen (which means the VM is starting):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/wMFScbT.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>It will then start to load the iso. Just like before when we did the Windows 10 vm, this process takes awhile:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/nFaqu9P.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ft0vxCa.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>Finally, it is ready to configure. You will see the following screen:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/RhEsL2S.png" alt="" width="80%" height="80%" /></p>
+<p>Hit Next</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now hit Install Now:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/LRlumJ4.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>Choose Windows Server 2019 Standard Evaluation (Desktop Experience):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/SL1Q8ux.png" alt="" width="80%" height="80%" /></p>
+<p>If you choose the non-Desktop Experience options, you&rsquo;ll only get the command line).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Agree to the terms:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/CEzxrjT.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>Now choose the second option&nbsp;<strong>Custom: Install Windows only (advanced)</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/TLtgSmq.png" alt="" width="80%" height="80%" /></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Hit <strong>Next</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/98kcx1T.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>It will start installing (this part will take a while):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/DZtWayg.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The server will restart several times during this installation. Eventually it will get to a black screen that says, &ldquo;push any button to boot&rdquo;. Don&rsquo;t press anything at this point and it will boot to windows on its own:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/w4xzdhV.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
