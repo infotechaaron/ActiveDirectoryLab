@@ -881,6 +881,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>By installing RAS and NAT on the domain controller, we will allow our clients to achieve this functionality.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>To do this, go to <strong>Add roles and features</strong></p>
 <p style="text-align: center;"><strong><img src="https://i.imgur.com/KpZXEU5.png" alt="" width="80%" height="80%" /></strong></p>
 <p>&nbsp;</p>
@@ -908,7 +909,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: left;">For Roles select&nbsp;<strong>Remote Access&nbsp;</strong>&gt;&gt;&nbsp;<strong>Next</strong></p>
-<p style="text-align: center;"><img src="https://i.imgur.com/Pz3AgNY.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/IyPGrLd.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
@@ -921,7 +922,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: left;">Hit <strong>Next</strong></p>
-<p style="text-align: center;"><img src="https://i.imgur.com/GkuckmD.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/vVdXqWM.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
@@ -932,36 +933,21 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
-<p style="text-align: center;"><img src="https://i.imgur.com/kp6cuqc.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">Hit&nbsp;<strong>Add Features</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/u0PoU6G.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
-<p style="text-align: center;"><img src="https://i.imgur.com/ioBk808.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">Select<strong> Install&nbsp;</strong>on the Confirmation page (not shown here)</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
-<p style="text-align: center;"><strong><img src="https://i.imgur.com/QyNC7LK.png" alt="" width="80%" height="80%" /></strong></p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">Select<strong> Install</strong></p>
-<p style="text-align: center;"><img src="https://i.imgur.com/f3o6yyn.png" alt="" width="80%" height="80%" /></p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">Installation starts (this could take a long minute, so go grab some coffee and meet me back here in 5):</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/OjoJD5Q.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/HnD8Lyf.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p>Finally it's done installing:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/ATHWRjf.png" alt="" width="80%" height="80%" /></p>
+<p>Finally it's done installing &gt;&gt; hit&nbsp;<strong>Close</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/2oHFusy.png" alt="" width="80%" height="80%" /></p>
