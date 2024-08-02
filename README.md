@@ -1016,5 +1016,5 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
-<p>If we look at our network diagram again,&nbsp;we have our <strong>Domain / AD DS</strong> setup and then we just configured <strong>RAS and NAT</strong>, so Step 7 is finished now (next is DHCP setup):</p>
+<p>If we look at our network diagram again,&nbsp;we have our <strong>Domain / AD DS</strong> setup and then we just configured <strong>RAS and NAT&nbsp;</strong><br />so Step 7 is finished now (next is DHCP setup):</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/UkkJ58e.jpg" alt="" width="80%" height="80%" /></p>
