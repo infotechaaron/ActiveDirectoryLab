@@ -1128,7 +1128,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Then open IE in the Domain Controller and hit OK:</p>
+<p style="text-align: left;">Then open <strong>IE</strong> in the Domain Controller and hit OK:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/V3bSTmq.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
@@ -1139,13 +1139,13 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/9ljHPQl.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">Open the zip file:</p>
+<p style="text-align: left;"><strong>Open the zip file</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/Xkxijzf.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Select Allow:</p>
+<p style="text-align: left;">Select <strong>Allow</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/NmAgIc3.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
@@ -1156,13 +1156,13 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: left;">Go ahead and minimize all the programs in the background.</p>
-<p style="text-align: left;">Then drag the zip file over to the Desktop of the domain controller (just so it's easily accessible):</p>
+<p style="text-align: left;">Then <strong>drag the zip file over to the Desktop</strong> of the domain controller (just so it's easily accessible):</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/58Typ5L.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">Open the folder from your Desktop:</p>
+<p style="text-align: left;"><strong>Open the folder from your Desktop</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/WgO5la3.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
@@ -1188,7 +1188,6 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-
 
 
 <h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
