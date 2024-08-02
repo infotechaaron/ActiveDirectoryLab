@@ -46,9 +46,9 @@ Just to give a high-level overview of what we're going to do in this lab, I’ll
 <h2><strong>This tutorial is broken down into 10 steps:</strong>&nbsp;</h2>
 <ol>
 <li><a href="#step1">The first thing we're going to do is download and install Oracle VirtualBox, which is what we're going to use to run our virtual machines.</a><br /><br /></li>
-<li>After that's installed, we're going to download a Windows Server 2019 ISO that we're going to use to install on to the first of our two operating systems on the first of our two separate virtual machines (if that makes sense lol).<br /><br /></li>
-<li>Next, after we have everything downloaded and installed, we're going to create our first virtual machine, which is going to be our domain controller, which is going to house Active Directory.<br /><br /></li>
-<li>We're going to give this virtual machine two network adapters: one is going to be used to connect to the outside internet, and the other one is going to be used to connect to the VirtualBox private network that the clients are going to connect to.<br /><br /></li>
+<li><a href="#step2">After that's installed, we're going to download a Windows Server 2019 ISO that we're going to use to install on to the first of our two operating systems on the first of our two separate virtual machines (if that makes sense lol).</a><br /><br /></li>
+<li><a href="#step3">Next, after we have everything downloaded and installed, we're going to create our first virtual machine, which is going to be our domain controller, which is going to house Active Directory.</a><br /><br /></li>
+<li><a href="#step4">We're going to give this virtual machine two network adapters: one is going to be used to connect to the outside internet, and the other one is going to be used to connect to the VirtualBox private network that the clients are going to connect to.</a><br /><br /></li>
 <li>After our virtual machine is created, we're going to install Server 2019 on it and then we're going to assign IP addressing for the internal network. The external network will automatically get IP addressing from your home network or your home router, so we don't have to worry about properly subnetting and what/not (that&rsquo;s for a later video lol).<br /><br /></li>
 <li>After we have IP addressing set up, we're going to name the server and then we're going to install Active Directory and create our domain.<br /><br /></li>
 <li>Then, we're going to configure that and routing so the clients on the private network can reach the internet through the domain controller.<br /><br /></li>
@@ -180,8 +180,7 @@ At this point, our tutorial is going to be pretty much concluded.
     <br/>
 
 
-
-## STEP 2: Configuring VirtualBox with the second Windows Server 2019 VM
+<h2 id="step2">STEP 2: Configuring VirtualBox with the second Windows Server 2019 VM</h2>
 <p>Let's now download <strong>Windows&nbsp;Server 2019 ISO</strong> by going to this link:&nbsp;<a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019</a></p>
 <ul>
 <li>Make sure you choose the ISO:</li>
@@ -198,7 +197,8 @@ At this point, our tutorial is going to be pretty much concluded.
 <br/>
 <br/>
 
-## STEP 3: Create the Server 2019 VM
+
+<h2 id="step3">STEP 3: Create the Server 2019 VM</h2>
 <p>Over to VirtualBox again, hit <strong>New</strong>:</p>
 <p><img src="https://camo.githubusercontent.com/eea8dab18a4de44aed02aaa9c560ce7cb9c8dfa66c3f3f17f32be1e5228e6ce0/68747470733a2f2f692e696d6775722e636f6d2f6a715a367262352e706e67" alt="" width="80%" height="80%" /></p>
 <p>&nbsp;</p>
@@ -247,8 +247,7 @@ At this point, our tutorial is going to be pretty much concluded.
 
 
 
-
-<h2>STEP 4: Configure the Server 2019 virtual machine with two network adapters</h2>
+<h2 id="step4">STEP 4: Configure the Server 2019 virtual machine with two network adapters</h2>
 <p>Lastly, before we start our domain controller Server 2019 vm, head over to <strong>Settings</strong> &gt; <strong>Network</strong></p>
 <p>If you remember from the diagram, for our domain controller we&nbsp;want to have 2 network interface cards (NICs):</p>
 <ol>
