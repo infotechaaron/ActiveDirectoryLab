@@ -1231,3 +1231,75 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
 </div>
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Then add&nbsp;<strong>172.16.0.1&nbsp;</strong>to the IP address list and hit&nbsp;<strong>Next</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/nZJQUrI.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/IEtTZXj.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Next&nbsp;</strong>to confirm you want to activate this scope now:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ia3E4Yf.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Finally hit&nbsp;<strong>Finish</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/0EwdUR9.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Notice the message in the middle box (it's telling us we must authorize the DHCP Server in Active Directory):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/QnFegf0.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">To authorize, <strong>right-click dc.mydomain.com</strong> and select <strong>Authorize</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/8G2BAlp.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Then&nbsp;<strong>right-click IPv4&nbsp;</strong>&gt;&gt;&nbsp;<strong>Refresh</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/a9zsdZZ.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Now notice our IPv4 and IPv6 has a green icon next to it:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/mFTpkMZ.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">If you click on the&nbsp;<strong>Scope&nbsp;</strong>&gt;&gt;&nbsp;<strong>Address Leases</strong>. You'll see there are no leased IP addresses yet. But when we create our Windows 10 client computer VM, you'll see it lease an IP address from here:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/3hM62c3.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<h2 style="text-align: left;">STEP 9: Run a PowerShell script that will automatically create a thousand users in Active Directory</h2>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">So before we actually go and create our create our client computer and join it to the domain, we're first we're going to use a powershell script to create a whole bunch of users in active directory so we can have a bunch of sample users and we don't have to manually create a whole</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">bunch of them.</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">To do that</div>
