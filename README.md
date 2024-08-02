@@ -1104,51 +1104,71 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: left;">&nbsp;</p>
 
 
-
-
 <h2 id="step9">STEP 9: Run a PowerShell script that will automatically create a thousand users in Active Directory</h2>
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">So before we actually go and create our create our client computer and join it to the domain, we're first we're going to use a powershell script to create a whole bunch of users in active directory so we can have a bunch of sample users and we don't have to manually create a whole</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">bunch of them.</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
-<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">To do that</div>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>To do that, refer to the AD_PS-master.zip file that's in this repository:</p>
+<p>To do that, we will need to use the PowerShell script I wrote located in the&nbsp;<a href="https://github.com/infotechaaron/ActiveDirectoryLab/blob/main/AD_PS-master.zip">AD_PS-master.zip</a> file that's in this repository.</p>
 <p>&nbsp;</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/S4MBu6b.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">The best way to grab the files is by using the Internet Explorer browser within your DC virtual machine.</p>
+<p style="text-align: left;">But first we need to disable a feature in Server Manager that will allow us to freely browse to this github repository.</p>
+<p style="text-align: left;">So in <strong>Server Manager</strong> go to <strong>Local Server</strong> &gt;&gt; <strong>IE Enhanced Security Configuration</strong> &gt;&gt; <strong>click the blue On</strong></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/qgmUlxk.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Click on that zip file:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/2pVblUy.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">Turn both options to <strong>Off&nbsp;</strong>&gt;&gt;&nbsp;<strong>OK</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ywiMN0Z.png" alt="" width="70%" height="70%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">If this is on, before every page loads it will like spams us saying "are you sure you want to load this?" But if we turn off we can just browse normally.&nbsp;</div>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Then&nbsp;<strong>Download raw file</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/6nsuXdk.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Then open IE in the Domain Controller and hit OK:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/V3bSTmq.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Paste this link into the address bar of browser (the web page might look a little funky because of the IE internet security):</p>
+<p style="text-align: left;"><a href="https://github.com/infotechaaron/ActiveDirectoryLab/blob/main/AD_PS-master.zip">https://github.com/infotechaaron/ActiveDirectoryLab/blob/main/AD_PS-master.zip</a></p>
+<p style="text-align: left;">Hit <strong>Enter&nbsp;</strong>&gt;&gt; click on&nbsp;<strong>View raw</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/9ljHPQl.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">Open the zip file:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/lyCRz9D.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Xkxijzf.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
-<p style="text-align: left;">Then click on Extract all and save it wherever you like:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/dUmPqzC.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Select Allow:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/NmAgIc3.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">It will open in a new File Explorer window:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/RVKTTy7.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Go ahead and minimize all the programs in the background.</p>
+<p style="text-align: left;">Then drag the zip file over to the Desktop of the domain controller (just so it's easily accessible):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/58Typ5L.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">Open the extracted folder file:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/Fzw72Ww.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Open the folder from your Desktop:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/WgO5la3.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">And you'll see the files with&nbsp;the PowerShell scripts and a text file. You'll see there's a plain text file called&nbsp;<strong>names.txt</strong>&nbsp;&gt;&gt; <strong>let's open this first</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/Ui0eZOA.png" alt="" width="80%" height="80%" /></p>
@@ -1168,6 +1188,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
+
 
 
 <h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
