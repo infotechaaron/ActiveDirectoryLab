@@ -1256,7 +1256,45 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
 </div></div>
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Back in <strong>Active Directory Users and Computers</strong>, we currently have only the _ADMINS organizational unit group with the account we created earlier:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/dMXCCJk.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>One last thing before we run the script. We have to go to the directory in PowerShell where the script is located.</p>
+<p>So we saved it on the desktop so type:</p>
+<p>cd C:\Users\a-aguild\Desktop\AD_PS-master</p>
+<p>Hit Enter</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/f01q7Ow.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Just to verify we're in the right place, type&nbsp;<strong>ls&nbsp;</strong>to look into the directory:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/VPhNKwQ.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">There's our&nbsp;<strong>names.txt&nbsp;</strong> file, so where all good!</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>Now let's generate over a thousand user accounts in a new OU group named _USERS</p>
+<p>So go ahead and Run the script by pressing the <strong>green Play button</strong> on the top (sit back and enjoy the show):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/5BIBDVw.png" alt="" width="80%" height="80%" /></p>
+<p>As you can see the names are being generated and are being created in Active Directory.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>If we open&nbsp;<strong>Active Directory Users and Computers&nbsp;</strong>again (I had to close it then open it again), you'll see the new OU group _USERS with over a thousand new user accounts:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/gNrv88j.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
 
 
 
