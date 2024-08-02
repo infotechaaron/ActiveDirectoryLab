@@ -46,7 +46,7 @@ Just to give a high-level overview of what we're going to do in this lab, I’ll
 <h2><strong>This tutorial is broken down into 10 steps:</strong>&nbsp;</h2>
 <ol>
 <li>The first thing we're going to do is download and install Oracle VirtualBox, which is what we're going to use to run our virtual machines.<br /><br /></li>
-<li>After that's installed, we're going to download a Windows 10 ISO and a Server 2019 ISO that we're going to use to install the two operating systems on two separate virtual machines.<br /><br /></li>
+<li>After that's installed, we're going to download a Windows Server 2019 ISO that we're going to use to install on to the first of our two operating systems on the first of our two separate virtual machines (if that makes sense lol).<br /><br /></li>
 <li>Next, after we have everything downloaded and installed, we're going to create our first virtual machine, which is going to be our domain controller, which is going to house Active Directory.<br /><br /></li>
 <li>We're going to give this virtual machine two network adapters: one is going to be used to connect to the outside internet, and the other one is going to be used to connect to the VirtualBox private network that the clients are going to connect to.<br /><br /></li>
 <li>After our virtual machine is created, we're going to install Server 2019 on it and then we're going to assign IP addressing for the internal network. The external network will automatically get IP addressing from your home network or your home router, so we don't have to worry about properly subnetting and what/not (that&rsquo;s for a later video lol).<br /><br /></li>
@@ -54,7 +54,7 @@ Just to give a high-level overview of what we're going to do in this lab, I’ll
 <li>Then, we're going to configure that and routing so the clients on the private network can reach the internet through the domain controller.<br /><br /></li>
 <li>Next, we're going to set up DHCP on the domain controller so when we create our Windows 10 machine (which will automatically get an IP address).<br /><br /></li>
 <li>The last thing we do on the domain controller before we create our client virtual machine is we're going to run a PowerShell script that will automatically create a thousand users in Active Directory, and I'll do a quick rundown through the script and explain what each line is so you can kind of get an intuition on how PowerShell is useful and what kind of things you can use it for.<br /><br /></li>
-<li>After creating the users, we're going to create another virtual machine and install Windows 10 on it, and that virtual machine will be connected to the private VirtualBox network. We're going to name that machine "Client1" and join it to the domain, and then we're going to log into it with one of our domain accounts.</li>
+<li>After creating the users, we're going to create another virtual machine, download a Windows 10 ISO so we can install Windows 10 on it, and that virtual machine will be connected to the private VirtualBox network. We're going to name that machine "Client1" and join it to the domain, and then we're going to log into it with one of our domain accounts.</li>
 </ol>
 <br />
 At this point, our tutorial is going to be pretty much concluded.
