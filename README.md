@@ -696,7 +696,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>We're not going to use a default gateway because the domain controller itself is going to serve as the default gateway. Remember the domain controller has two NICs, one on the internet and one on the inside network.</p>
 <p>For DNS server, when we install Active Directory, it automatically installs DNS, so for right now, configure this internal adapter to use itself as the DNS server. So, you can either enter its own ip address but even better would be to enter its loopback address of 127.0.0.1 which is kind of a generic address that refers to itself and it always up. So, whenever a computer pings like 127.0.0.1, they're actually pinging themselves.</p>
 <p>&nbsp;</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/2oa0m06.png" alt="" width="513" height="366" /></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/sXaBFR1.png" alt="" width="513" height="366" /></p>
 <p style="text-align: left;">Hit <strong>OK</strong></p>
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">&nbsp;</p>
