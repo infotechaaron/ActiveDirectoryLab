@@ -45,7 +45,7 @@ Just to give a high-level overview of what we're going to do in this lab, I’ll
 
 <h2><strong>This tutorial is broken down into 10 steps:</strong>&nbsp;</h2>
 <ol>
-<li>The first thing we're going to do is download and install Oracle VirtualBox, which is what we're going to use to run our virtual machines.<br /><br /></li>
+<li><a href="#step1">The first thing we're going to do is download and install Oracle VirtualBox, which is what we're going to use to run our virtual machines.</a><br /><br /></li>
 <li>After that's installed, we're going to download a Windows Server 2019 ISO that we're going to use to install on to the first of our two operating systems on the first of our two separate virtual machines (if that makes sense lol).<br /><br /></li>
 <li>Next, after we have everything downloaded and installed, we're going to create our first virtual machine, which is going to be our domain controller, which is going to house Active Directory.<br /><br /></li>
 <li>We're going to give this virtual machine two network adapters: one is going to be used to connect to the outside internet, and the other one is going to be used to connect to the VirtualBox private network that the clients are going to connect to.<br /><br /></li>
@@ -65,8 +65,7 @@ At this point, our tutorial is going to be pretty much concluded.
 
 
 
-
-## STEP 1: Installing VirtualBox
+<h2 id="step1">STEP 1: Installing VirtualBox</h2>
 
 1.  Download VirtualBox from the website by opening the following link in a new tab: <https://www.virtualbox.org/>
     1.  Click blue Download button
