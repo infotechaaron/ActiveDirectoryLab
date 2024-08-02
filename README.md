@@ -1296,7 +1296,23 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 
-
+<p>&nbsp;</p>
+<p>&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: left;">Also, if you <strong>right-click on mydomain.com</strong> &gt;&gt; <strong>Find</strong>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/WzmF9R1.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Then hit&nbsp;<strong>Find Now</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/8kFrS4H.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">You'll see that there is now 1051 user accounts now in Active Directory!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
 <ul>
