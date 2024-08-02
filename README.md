@@ -1018,3 +1018,216 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: left;">&nbsp;</p>
 <p>If we look at our network diagram again,&nbsp;we have our <strong>Domain / AD DS</strong> setup and then we just configured <strong>RAS and NAT&nbsp;</strong><br />so Step 7 is finished now (next is DHCP setup):</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/UkkJ58e.jpg" alt="" width="80%" height="80%" /></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>STEP 8: DHCP Scope Configuration on DC</h2>
+<p>Next, we're going to set up a DHCP Server on the domain controller and&nbsp;what this is going to do is allow our windows 10 clients to get an ip address that will let them&nbsp;get on the internet and browse the internet (even though they're on this private internal network just like in your office or school.</p>
+<p>&nbsp;</p>
+<p>So to setup our DHCP Server we'll go back to the <strong>domain controller</strong> &gt;&gt; <strong>Add roles and features</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/iHsi3Dn.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit <strong>Next</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/MybTiJs.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p>Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/jLZHkdB.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">This is our server.&nbsp;Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/DSCtYzi.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Check the box next to&nbsp;<strong>DHCP Server</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/mpA7KPf.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Add Features</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/PK6DcqB.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/UcrdR1W.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><strong>Hit&nbsp;<strong>Next 3 times </strong></strong>until you get to this screen...then select<strong><strong> Install</strong></strong></p>
+<p style="text-align: center;"><strong><strong><img src="https://i.imgur.com/38MYsWq.png" alt="" width="80%" height="80%" /></strong></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><strong><strong>Installation in progress</strong></strong></p>
+<p style="text-align: center;"><strong><strong><img src="https://i.imgur.com/7YFoCwk.png" alt="" width="80%" height="80%" /></strong></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">When DHCP is finished installing hit<strong> Close</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/ZpxPNMp.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Go to&nbsp;<strong>Tools&nbsp;</strong>&gt;&gt;&nbsp;<strong>DHCP</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/IW0iE2e.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">Here's our dhcp control panel:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/mOwnU7j.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">So the whole purpose of dhcp is to allow the computers on the network (like client computers) to automatically get their ip addresses.</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">So looking at our diagram here we defined the scope:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/UkkJ58e.jpg" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">So next we're going to create a scope that will give the ip addresses in the range of 172.16.0.100 to&nbsp;172.16.0.200 with a&nbsp;subnet mask of 255.255.255.0</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">If you hit the dropdown arrow on dc.mydomain.com, you'll see that they have a red icon next to IPv4 and IPv6 (meaning that they are down):</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/SuaiZft.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0"><strong>Right-click on IPv4</strong> and select <strong>New Scope</strong>:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/WE3qe3n.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">Hit&nbsp;<strong>Next&nbsp;</strong>on first Wizard screen (not shown here)</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">Name the scope&nbsp;<strong>172.16.0.100-200&nbsp;</strong>and hit&nbsp;<strong>Next</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/KHvAF4i.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">Fill in the <strong>Start and End IP Address</strong>&nbsp;with our scope, as well as change the Subnet Mask to the CIDR value of <strong>24</strong> (which is the same as 255.255.255.0 in Dotted Decimal Notation) and hit&nbsp;<strong>Next</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/sbQpLy4.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">I can't really go into the fundamentals of IP addressing in this tutorial, but if you're interested in learning the quick way, you can check out my other tutorial <strong>IP Addressing: The Art of Subnetting</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">The next screen gives us the option to exclude IP addressess from our range, but we don't really need to worry about that, so hit&nbsp;<strong>Next</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><strong><img src="https://i.imgur.com/iSWyTHp.png" alt="" width="80%" height="80%" /></strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0"><strong>Lease Duration</strong> is how long a computer can have that ip address before it needs to be refreshed. This just depends on your use case.</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0"><strong>For example</strong>:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">If you're running a cafe like a starbucks and you have a lease time of 8 Days, say somebody comes and gets on the wi-fi network, drinks a coffee and then leaves after 30 minutes. This means that the IP address that was given to that quick coffee drinker of 8 days is going be tied up until the 8&nbsp; days runs out and no one else can have that ip address until the lease expires. So if you're like running a Starbucks you may want to make the lease like 2 hours instead of 8 days. But if you're just on a home lab like we're doing here, 8 days is fine so we're just going to hit&nbsp;<strong>Next</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/X559P0N.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">Hit&nbsp;<strong>Next&nbsp;</strong>to <strong>Yes. I want to&nbsp;Configure DHCP Options now</strong>:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/23QBF5T.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">For the Router (Default Gateway) enter&nbsp;<strong> 172.16.0.1&nbsp;</strong>&gt;&gt;&nbsp;<strong>Add&nbsp;</strong>&gt;&gt;&nbsp;<strong>Next</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/HjLw3wi.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">When you select&nbsp;<strong>Add</strong> it drops the IP address down to the bottom text area (<strong>Don't Forget to Do This!</strong>):</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/o6X0JMH.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
