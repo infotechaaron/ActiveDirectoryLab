@@ -1312,7 +1312,13 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<p style="text-align: left;">Now you can search for your name (or the name that I had you put into the names.txt file):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/NPSppfr.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">And there I am!</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
 
 <h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
 <ul>
