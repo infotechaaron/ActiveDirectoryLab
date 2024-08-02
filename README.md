@@ -182,227 +182,6 @@ At this point, our tutorial is going to be pretty much concluded.
 
 
 
-## Part 2: Configuring VirtualBox with the first Windows 10 VM
-<ul>
-
-<ol>
-1. Create a Windows 10 image file for the VirtualBox OS (you can do this many different ways):<br/>
-    <br/>
-<ol style="list-style-type: lower-alpha;">
-<li>Go to the Microsoft download center by opening the following link in a new tab:<a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
-<li>It might prompt you to Login or fill out some info like your name, email, job title, etc...(but it's totally legit)<br /><br /><br /></li>
-<li>Scroll down and select the &ldquo;Download tool now&rdquo; button:<br /><br /><br /></li>
-           <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/asglkSp.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-
-    
-<li>Open the download:<br /><br /><br /></li>
-   <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/2N7KlH5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-    
-<li>Eventually you&rsquo;ll see this screen in which you need to Accept:<br /><br /><br /></li>
-       <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/zU43CPw.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-    
-<li>On the &ldquo;What do you want to do?&rdquo; screen, select the second option and hit Next:<br /><br /><br /></li>
-       <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/HAsyCZC.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-    
-<li>The next screen you&rsquo;ll be able to change language, architecture and edition if you need to (I&rsquo;m just going to hit next):<br /><br /><br /></li>
-       <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/qFPYiql.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-    
-<li>The next screen lets you choose between a USB flash drive or an ISO file. Select ISO file, hit Next and save it wherever you like:<br /><br /><br /></li>
-       <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/k4avGVy.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-    
-<li>Once you&rsquo;ve chosen a download folder it will begin:<br /><br />Note: When the installation is complete, you have to hit Finish on the screen that mentions &ldquo;burning to a DVD&rdquo; (at least I had to). All that does is create a drive in File Explorer called DVD Drive.</li>
-       <p align="center">
-    <br/>
-    <img src="https://i.imgur.com/Xo3GfmN.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
-    <br /></p>
-    <br/>
-    <br/>
-    
-</ol>
-</li>
-</ol>
-</li>
-</ul>
-<br/>
-<br/>
-
-
-## Part 2.1: Create the Windows 10 VM
-<p>&nbsp;</p>
-<p>While that&rsquo;s downloading, hop over to VirtualBox and we&rsquo;ll start creating the VM:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/jqZ6rb5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p><br /><br /> Hit the New star-looking button at the top:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/a0aCej0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p><br /><br /> Give your VM a Name and specify where you want to store VM files:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/v2MjLCd.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<ul>
-<li>Name: <strong>Windows10-VM-mydomain</strong></li>
-<li>Folder: <strong>C:\Users\guild\VirtualBox VMs</strong></li>
-<li>ISO Image: <strong>C:\Users\guild\VirtualBox VMs\Windows.iso</strong> (choose location where you saved it to)</li>
-<li>Skip Unattended Installation: <strong>Check the box</strong> (this allows to install the OS manually)</li>
-</ul>
-<p>&nbsp;</p>
-<p><br /><br /><br /> The next &ldquo;Hardware&rdquo; screen allows you to configure the VM&rsquo;s memory and CPU Processors. (keep in mind that this will be relying on your physical computer&rsquo;s resources):</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/TQG3cTD.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /><br /> Just for the installation processe, I:</p>
-<ul>
-<li>Increased the Base Memory to <strong>4096 MB</strong> (4 Gigs)</li>
-<li>Decreased the CPU to <strong>3 Processors </strong></li>
-</ul>
-<p style="text-align: left;"><em>(it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these)</em></p>
-<p style="text-align: left;"><br /> Hit <strong>Next</strong> <br /><br /></p>
-<p><br /><br /> For the Virtual Hard disk, I decreased to <strong>30 Gigs</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/VOtgko0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br /> Hit <strong>Next</strong> </p>
-<p>&nbsp;</p>
-<p><br /><br /> Finally you&rsquo;ll see a Summary of what you just configured:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/xLEvIvO.png" alt="" width="718" height="382" /></p>
-<p><br /> If you&rsquo;re good to go, click <strong>Finish</strong> <br /><br /><br /></p>
-<p>&nbsp;</p>
-<p>Shortly you should see the new Windows10 virtual machine in VirtualBox:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/AfUDgv1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br />Go ahead and hit the green arrow labeled <strong>Start</strong> at the top. <br /><br /></p>
-<p>&nbsp;</p>
-<p><br /> Eventually, you&rsquo;ll be presented with the Windows Setup page:</p>
-<p style="text-align: center;"><br /><img src="https://i.imgur.com/piVokV5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>Hit <strong>Next</strong> <br /><br /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /> Hit <strong>Install Now</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/C0Cu9lA.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Once you&rsquo;re presented with Activate Windows screen; select &ldquo;<strong>I don&rsquo;t have a product key</strong>&rdquo; at the bottom to the left of the Next button:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/139DaiG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> For the operating system option, select <strong>Windows 10 Pro</strong>:</p>
-<p style="text-align: center;"><br /><img src="https://i.imgur.com/j1kgeQT.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>Hit <strong>Next</strong> </p>
-<p>&nbsp;</p>
-<p><br /><br /> <strong>Accept the license terms</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/atn5HDr.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br />Hit <strong>Next</strong> </p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Now choose the second option <strong>Custom: Install Windows only (advanced)</strong></p>
-<p style="text-align: center;"><img src="https://i.imgur.com/tQdQFKe.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Hit <strong>next</strong> on the following screen:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/EkBjFc3.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Now you will see the installation of Windows 10 has started:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/y5YPtpz.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Windows will restart automatically to finalize installation:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/RqOYd65.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Choose your region (<strong>United States</strong>):</p>
-<p style="text-align: center;"><br /><img src="https://i.imgur.com/MZFxlUP.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p style="text-align: center;">&nbsp;</p>
-<p>Hit&nbsp;<strong>Yes</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/K6GBSdD.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /><br /><br /></p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;">Hit <strong>Skip</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/16vfa5Q.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Select &ldquo;<strong>Set up for personal use</strong>&rdquo; and &ldquo;<strong>Next</strong>&rdquo;:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/zSzJQXm.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /> Select &ldquo;<strong>Offline account</strong>&rdquo; on bottom left:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/AR4rmuk.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Then &ldquo;<strong>Limited experience</strong>&rdquo;:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/WbUbVn3.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Input a username and hit Next:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/ZfFlF1N.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Input a Password and hit Next:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/ThUV5vG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Confirm your Password:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/dLNYvbI.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Answer the Security Questions:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/Y2HQnmb.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Select &ldquo;<strong>Not now</strong>&rdquo;:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/yFb9aJ1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> You can do what you like here, but I always toggle these to No:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/8ssdysG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p><br /><br /> Hit <strong>Skip</strong>:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/o96OZDB.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Select &ldquo;<strong>Not now</strong>&rdquo;:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/MarvDl1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Finally, we&rsquo;re up and running:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/thcIT4l.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br /><br /> Create a username and password once Windows is done installing (below is my example)</p>
-<ul>
-<li>Username: aaron</li>
-<li>Password: Neverhappened86</li>
-</ul>
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## Part 3: Configuring VirtualBox with the second Windows Server 2019 VM
 <p>Let's now download <strong>Windows&nbsp;Server 2019 ISO</strong> by going to this link:&nbsp;<a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019</a></p>
 <ul>
@@ -1359,3 +1138,228 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/ghfjcdQ.png" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+
+
+
+## STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer
+<ul>
+
+<ol>
+1. Create a Windows 10 image file for the VirtualBox OS (you can do this many different ways):<br/>
+    <br/>
+<ol style="list-style-type: lower-alpha;">
+<li>Go to the Microsoft download center by opening the following link in a new tab:<a href="https://www.microsoft.com/en-ca/software-download/windows10">https://www.microsoft.com/en-ca/software-download/windows10</a><br /><br /></li>
+<li>It might prompt you to Login or fill out some info like your name, email, job title, etc...(but it's totally legit)<br /><br /><br /></li>
+<li>Scroll down and select the &ldquo;Download tool now&rdquo; button:<br /><br /><br /></li>
+           <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/asglkSp.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+
+    
+<li>Open the download:<br /><br /><br /></li>
+   <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/2N7KlH5.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
+<li>Eventually you&rsquo;ll see this screen in which you need to Accept:<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/zU43CPw.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
+<li>On the &ldquo;What do you want to do?&rdquo; screen, select the second option and hit Next:<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/HAsyCZC.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
+<li>The next screen you&rsquo;ll be able to change language, architecture and edition if you need to (I&rsquo;m just going to hit next):<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/qFPYiql.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
+<li>The next screen lets you choose between a USB flash drive or an ISO file. Select ISO file, hit Next and save it wherever you like:<br /><br /><br /></li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/k4avGVy.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
+<li>Once you&rsquo;ve chosen a download folder it will begin:<br /><br />Note: When the installation is complete, you have to hit Finish on the screen that mentions &ldquo;burning to a DVD&rdquo; (at least I had to). All that does is create a drive in File Explorer called DVD Drive.</li>
+       <p align="center">
+    <br/>
+    <img src="https://i.imgur.com/Xo3GfmN.png" height="70%" width="70%" alt="Microsoft Azure Virtual Machine"/>
+    <br /></p>
+    <br/>
+    <br/>
+    
+</ol>
+</li>
+</ol>
+</li>
+</ul>
+<br/>
+<br/>
+
+
+## STEP 10.1: Create the Windows 10 VM Client Computer
+<p>&nbsp;</p>
+<p>While that&rsquo;s downloading, hop over to VirtualBox and we&rsquo;ll start creating the VM:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/jqZ6rb5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p><br /><br /> Hit the New star-looking button at the top:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/a0aCej0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p><br /><br /> Give your VM a Name and specify where you want to store VM files:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/v2MjLCd.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<ul>
+<li>Name: <strong>Windows10-VM-mydomain</strong></li>
+<li>Folder: <strong>C:\Users\guild\VirtualBox VMs</strong></li>
+<li>ISO Image: <strong>C:\Users\guild\VirtualBox VMs\Windows.iso</strong> (choose location where you saved it to)</li>
+<li>Skip Unattended Installation: <strong>Check the box</strong> (this allows to install the OS manually)</li>
+</ul>
+<p>&nbsp;</p>
+<p><br /><br /><br /> The next &ldquo;Hardware&rdquo; screen allows you to configure the VM&rsquo;s memory and CPU Processors. (keep in mind that this will be relying on your physical computer&rsquo;s resources):</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/TQG3cTD.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /><br /> Just for the installation processe, I:</p>
+<ul>
+<li>Increased the Base Memory to <strong>4096 MB</strong> (4 Gigs)</li>
+<li>Decreased the CPU to <strong>3 Processors </strong></li>
+</ul>
+<p style="text-align: left;"><em>(it just makes it go a whole lot quicker....trust me. If you notice these setting eating too much of you host's resources, by all means lower these)</em></p>
+<p style="text-align: left;"><br /> Hit <strong>Next</strong> <br /><br /></p>
+<p><br /><br /> For the Virtual Hard disk, I decreased to <strong>30 Gigs</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/VOtgko0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p><br /> Hit <strong>Next</strong> </p>
+<p>&nbsp;</p>
+<p><br /><br /> Finally you&rsquo;ll see a Summary of what you just configured:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/xLEvIvO.png" alt="" width="718" height="382" /></p>
+<p><br /> If you&rsquo;re good to go, click <strong>Finish</strong> <br /><br /><br /></p>
+<p>&nbsp;</p>
+<p>Shortly you should see the new Windows10 virtual machine in VirtualBox:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/AfUDgv1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p><br />Go ahead and hit the green arrow labeled <strong>Start</strong> at the top. <br /><br /></p>
+<p>&nbsp;</p>
+<p><br /> Eventually, you&rsquo;ll be presented with the Windows Setup page:</p>
+<p style="text-align: center;"><br /><img src="https://i.imgur.com/piVokV5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>Hit <strong>Next</strong> <br /><br /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /> Hit <strong>Install Now</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/C0Cu9lA.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Once you&rsquo;re presented with Activate Windows screen; select &ldquo;<strong>I don&rsquo;t have a product key</strong>&rdquo; at the bottom to the left of the Next button:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/139DaiG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> For the operating system option, select <strong>Windows 10 Pro</strong>:</p>
+<p style="text-align: center;"><br /><img src="https://i.imgur.com/j1kgeQT.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>Hit <strong>Next</strong> </p>
+<p>&nbsp;</p>
+<p><br /><br /> <strong>Accept the license terms</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/atn5HDr.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p><br />Hit <strong>Next</strong> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Now choose the second option <strong>Custom: Install Windows only (advanced)</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/tQdQFKe.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Hit <strong>next</strong> on the following screen:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/EkBjFc3.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Now you will see the installation of Windows 10 has started:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/y5YPtpz.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Windows will restart automatically to finalize installation:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/RqOYd65.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Choose your region (<strong>United States</strong>):</p>
+<p style="text-align: center;"><br /><img src="https://i.imgur.com/MZFxlUP.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>Hit&nbsp;<strong>Yes</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/K6GBSdD.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /><br /><br /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Hit <strong>Skip</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/16vfa5Q.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Select &ldquo;<strong>Set up for personal use</strong>&rdquo; and &ldquo;<strong>Next</strong>&rdquo;:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/zSzJQXm.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /> Select &ldquo;<strong>Offline account</strong>&rdquo; on bottom left:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/AR4rmuk.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Then &ldquo;<strong>Limited experience</strong>&rdquo;:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/WbUbVn3.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Input a username and hit Next:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ZfFlF1N.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Input a Password and hit Next:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ThUV5vG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Confirm your Password:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/dLNYvbI.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Answer the Security Questions:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Y2HQnmb.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Select &ldquo;<strong>Not now</strong>&rdquo;:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/yFb9aJ1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> You can do what you like here, but I always toggle these to No:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/8ssdysG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p><br /><br /> Hit <strong>Skip</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/o96OZDB.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Select &ldquo;<strong>Not now</strong>&rdquo;:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/MarvDl1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><br /><br /> Finally, we&rsquo;re up and running:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/thcIT4l.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p><br /><br /> Create a username and password once Windows is done installing (below is my example)</p>
+<ul>
+<li>Username: aaron</li>
+<li>Password: Neverhappened86</li>
+</ul>
+<br/>
+<br/>
+<br/>
+<br/>
+
