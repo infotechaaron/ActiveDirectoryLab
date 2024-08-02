@@ -1303,3 +1303,59 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">bunch of them.</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">To do that</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>To do that, refer to the AD_PS-master.zip file that's in this repository:</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/S4MBu6b.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Click on that zip file:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/2pVblUy.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Then&nbsp;<strong>Download raw file</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/6nsuXdk.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Open the zip file:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/lyCRz9D.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Then click on Extract all and save it wherever you like:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/dUmPqzC.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Open the extracted folder file:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Fzw72Ww.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">And you'll see the files with&nbsp;the PowerShell scripts and a text file. You'll see there's a plain text file called&nbsp;<strong>names.txt</strong>&nbsp;&gt;&gt; <strong>let's open this first</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/Ui0eZOA.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">This <strong>names.txt</strong> file basically has a thousand randomized names in it from a name generator I used from a college classmate:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/ddiprsk.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">For Ss and Gs, at the very top go ahead and add your own name like I did. We're going to use this file to programmatically create all of these users and we're going to create one for ourselves too. So go ahead and put your name at the top or whatever name comes to mind, then <strong>save the file</strong>:</div>
+<p style="text-align: center;"><img src="https://i.imgur.com/ghfjcdQ.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
