@@ -951,3 +951,71 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p>Finally it's done installing &gt;&gt; hit&nbsp;<strong>Close</strong></p>
 <p style="text-align: center;"><img src="https://i.imgur.com/2oHFusy.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Go to <strong>Tools</strong> &gt;&gt; <strong>Routing and Remote Access</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/jjgT3Kh.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p>The following screen opens:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/e1k1ON7.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;"><strong>Right-click on DC (local)</strong> &gt;&gt; <strong>Configure and Enable Routing and Remote Access</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/7HfpiCd.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/L5OfDyz.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Select <strong>Network address translation (NAT)</strong> &gt;&gt;&nbsp;<strong>Next</strong></p>
+<p style="text-align: center;"><img src="https://i.imgur.com/mvtHX1V.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Now when you get to this screen, it suppossed to show both of our internet adapters. For some reason it's greyed out (it hasn't synced yet).</p>
+<p style="text-align: left;">So you'll have to hit&nbsp;<strong>Cancel&nbsp;</strong>and redo the last couple steps (happens everytime LOL. It's just some wonky bug)</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/oIjqoZK.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">So I just Canceled and did the last two steps again and the adapters showed up this time:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/3hr710u.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Choose the <strong>_INTERNET_</strong> interface and hit <strong>Next</strong>:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/DZOv1XX.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Then select&nbsp;<strong>Finish</strong></p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/HY7KjeQ.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">It will take a second:</p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/Uin0KfH.png" alt="" width="80%" height="80%" /></strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Now we'll see a little green star icon on the DC (local) which means it's up and running correctly:</p>
+<p><img src="https://i.imgur.com/4BHeyvH.png" alt="" width="80%" height="80%" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">If we look at our network diagram again,&nbsp;we have our <strong>Domain / AD DS</strong> setup and then we just configured <strong>RAS and NAT</strong>, so Step 7 is</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">finished now (next is DHCP setup):</div>
+<p style="text-align: center;"><img src="https://i.imgur.com/UkkJ58e.jpg" alt="" width="80%" height="80%" /></p>
