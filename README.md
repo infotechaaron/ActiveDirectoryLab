@@ -1189,6 +1189,76 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 
+<p>&nbsp;</p>
+<p>Then go to Start &gt;&gt; Windows PowerShell &gt;&gt; Windows PowerShell ISE &gt;&gt; right-click &gt;&gt; More &gt;&gt; Run as Administrator</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/iUWKKYf.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Hit Yes</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/FjtWsP7.png" alt="" width="70%" height="70%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Go to Open</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/qwYqv1D.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Go to <strong>Desktop</strong> &gt;&gt; <strong>AD_PS-master</strong> &gt;&gt; open the <strong>1_CREATE_USERS</strong> powershell script file</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/dBPqq4M.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">The script opens:</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/dv7NusK.png" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">Before we run anything or do anything, we have to enable the execution of all scripts on this server.</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">For example: if i try to like run this as is it will through you a bunch of red errors saying something like "it's not digitally formed you can't run it"</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/Zq7MNdZ.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">To get around this this is security feature, since we're just in a home lab, go ahead and set the execution policy to unrestricted by typing:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0"><strong>Set-ExecutionPolicy Unrestricted&nbsp;</strong>&gt;&gt;&nbsp;<strong>Enter</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/xG4TEp8.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">Hit&nbsp;<strong>Yes to All</strong></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/3DIxJrj.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">So here's a quick breakdown of what's going on in this script:</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/R4unG8H.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+<div class="segment style-scope ytd-transcript-segment-renderer" tabindex="0">&nbsp;</div>
+</div></div>
+
+
+
 
 <h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
 <ul>
