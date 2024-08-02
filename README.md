@@ -1170,8 +1170,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 
 
-
-## STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer
+<h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
 <ul>
 
 <ol>
