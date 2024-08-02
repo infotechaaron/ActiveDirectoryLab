@@ -28,7 +28,7 @@ In this lab we're to walk through how to create an Active Directory home lab Env
 <li>
 <p><span class="yt-core-attributed-string--link-inherit-color" dir="auto"><strong>Windows 10 ISO</strong>:&nbsp;<a href="https://www.microsoft.com/en-us/software-download/windows10">https://www.microsoft.com/en-us/software-download/windows10</a></span></p>
 </li>
-<li><span class="yt-core-attributed-string--link-inherit-color" dir="auto">You can find the PowerShell script files right here in this repository.</span></li>
+<li><span class="yt-core-attributed-string--link-inherit-color" dir="auto">You can find and unzip the PowerShell script files in this repository or by clicking here:&nbsp;<a href="https://github.com/infotechaaron/ActiveDirectoryLab/blob/main/AD_PS-master.zip" target="_blank">AD_PS-master.zip</a></span></li>
 </ul>
 
 ## Network Diagram:
