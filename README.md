@@ -1249,7 +1249,7 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">So here's a quick breakdown of what's going on in this script:</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: left;" tabindex="0">&nbsp;</div>
-<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/R4unG8H.png" alt="" width="80%" height="80%" /></div>
+<div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0"><img src="https://i.imgur.com/R4unG8H.png" alt="" width="88%" height="88%" /></div>
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
 <div class="segment style-scope ytd-transcript-segment-renderer" style="text-align: center;" tabindex="0">&nbsp;</div>
