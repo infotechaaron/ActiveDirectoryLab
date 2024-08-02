@@ -66,7 +66,7 @@ At this point, our tutorial is going to be pretty much concluded.
 
 
 
-## Part 1: Installing VirtualBox
+## STEP 1: Installing VirtualBox
 
 1.  Download VirtualBox from the website by opening the following link in a new tab: <https://www.virtualbox.org/>
     1.  Click blue Download button
@@ -182,7 +182,7 @@ At this point, our tutorial is going to be pretty much concluded.
 
 
 
-## Part 3: Configuring VirtualBox with the second Windows Server 2019 VM
+## STEP 2: Configuring VirtualBox with the second Windows Server 2019 VM
 <p>Let's now download <strong>Windows&nbsp;Server 2019 ISO</strong> by going to this link:&nbsp;<a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019">https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019</a></p>
 <ul>
 <li>Make sure you choose the ISO:</li>
@@ -199,7 +199,7 @@ At this point, our tutorial is going to be pretty much concluded.
 <br/>
 <br/>
 
-## Part 3.1: Create the Server 2019 VM
+## STEP 3: Create the Server 2019 VM
 <p>Over to VirtualBox again, hit <strong>New</strong>:</p>
 <p><img src="https://camo.githubusercontent.com/eea8dab18a4de44aed02aaa9c560ce7cb9c8dfa66c3f3f17f32be1e5228e6ce0/68747470733a2f2f692e696d6775722e636f6d2f6a715a367262352e706e67" alt="" width="80%" height="80%" /></p>
 <p>&nbsp;</p>
