@@ -1417,12 +1417,15 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/a0aCej0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p>&nbsp;</p>
 <p><br /><br /> Give your VM a Name and specify where you want to store VM files:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/v2MjLCd.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4msnETwg2GVBJHqSXPp7knZmziBz5baUXOxACcNo3jF0P8EHwcBG4c3CxPUvN8OlbFX1RZOWl4ct69Rc5zJzBczD0QzAIysojLWWxZKlErDSh4zINNDiZlTIxkGXX_atwp9_y1qubK3bN0RgerjquVWlM4BYMZ3BELqDtcKo7i0SZgrfO4FvseeZCoGo8NdF4I5KzV7JZA6ELN8-I1ixLL9DUwOYcKrtIswG9VRUXjNzE" alt="Microsoft Azure Virtual Machine" width="80%" height="80%" /></p>
 <ul>
-<li>Name: <strong>Windows10-VM-mydomain</strong></li>
-<li>Folder: <strong>C:\Users\guild\VirtualBox VMs</strong></li>
-<li>ISO Image: <strong>C:\Users\guild\VirtualBox VMs\Windows.iso</strong> (choose location where you saved it to)</li>
+<li>Name:&nbsp;<strong>CLIENT1</strong></li>
+<li>Folder:&nbsp;<strong>D:\VirtualBox VMs</strong></li>
+<li>ISO Image: <strong>D:\ISO Files\Windows10 ISO\Windows.iso</strong>&nbsp;(choose location where you saved it to)</li>
 <li>Skip Unattended Installation: <strong>Check the box</strong> (this allows to install the OS manually)</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p></li>
 </ul>
 <p>&nbsp;</p>
 <p><br /><br /><br /> The next &ldquo;Hardware&rdquo; screen allows you to configure the VM&rsquo;s memory and CPU Processors. (keep in mind that this will be relying on your physical computer&rsquo;s resources):</p>
