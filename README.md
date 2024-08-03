@@ -1440,14 +1440,14 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/VOtgko0.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p><br /> Hit <strong>Next</strong> </p>
 <p>&nbsp;</p>
-<p><br /><br /> Finally you&rsquo;ll see a Summary of what you just configured:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/xLEvIvO.png" alt="" width="718" height="382" /></p>
-<p><br /> If you&rsquo;re good to go, click <strong>Finish</strong> <br /><br /><br /></p>
-<p>&nbsp;</p>
-<p>Shortly you should see the new Windows10 virtual machine in VirtualBox:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/AfUDgv1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br />Go ahead and hit the green arrow labeled <strong>Start</strong> at the top. <br /><br /></p>
-<p>&nbsp;</p>
+<p dir="auto">Finally you&rsquo;ll see a Summary of what you just configured:</p>
+<p dir="auto"><a href="https://camo.githubusercontent.com/9ce1cd0beb7fd1fac7fea26190d2fa09f5c23426f04bc668f20676a5c9b25118/68747470733a2f2f692e696d6775722e636f6d2f784c457649764f2e706e67" target="_blank" rel="noopener noreferrer nofollow"><img src="https://krqalg.dm.files.1drv.com/y4mSKzQV8emytyVztDxYhbqNEvkIpkkQ5PK-L1rMSAqdVuTnu15LiGvKBkrQvyMd8gm-obSu9inrqFIoniOBJ_YbKeNB0sd6j-09TmV1BFZvk9bzTK2O2nrurHp-x8ZV4uCMNQ4vDeanRBtKxS8LS1P1cT0MnmQUzXBO1Kph6Y1HjV_VdMcld4bCft9nq1phc5N3MmIM5vu17fEuW7M7uSxpbMPZxCGyI0PoLtr9d5hsAw" alt="" width="80%" height="80%" data-canonical-src="https://i.imgur.com/xLEvIvO.png" /></a></p>
+<p dir="auto"><br />If you&rsquo;re good to go, click&nbsp;<strong>Finish</strong><br /><br /><br /></p>
+<p dir="auto">&nbsp;</p>
+<p dir="auto">Shortly you should see the new Windows10 virtual machine in VirtualBox:</p>
+<p dir="auto"><a href="https://camo.githubusercontent.com/40205ce2b9352e13b291d52d3b5653c864dbae54e16c037784dc57eba274aa67/68747470733a2f2f692e696d6775722e636f6d2f416655446776312e706e67" target="_blank" rel="noopener noreferrer nofollow"><img src="https://krqalg.dm.files.1drv.com/y4mDAXHrCn9QzOtIn76DUNhkcMysqmFZB2xGQg-lkDNt14eRYsj-HYjugs5MBqSTVibvlVSid5pZInjmGjF5EgxKbMztKw-YcOcECjYHgn6Lz19U1OaWG8TVlXAxZkRsAGjU85idIjxaKbkAe_m5kohHIT7ngnKrDxCvAyqjyWtoaG-mqfiuCdvYw_i5xATFtkwyfTCwpfUOH6Af07hVgyTK8znN6anSmc-bs7fARTpbLA" alt="Microsoft Azure Virtual Machine" width="80%" height="80%" data-canonical-src="https://i.imgur.com/AfUDgv1.png" /></a></p>
+<p dir="auto"><br />Go ahead and hit the green arrow labeled&nbsp;<strong>Start</strong>&nbsp;at the top.<br /><br /></p>
+<p dir="auto">&nbsp;</p><p>&nbsp;</p>
 <p><br /> Eventually, you&rsquo;ll be presented with the Windows Setup page:</p>
 <p style="text-align: center;"><br /><img src="https://i.imgur.com/piVokV5.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p>Hit <strong>Next</strong> <br /><br /></p>
