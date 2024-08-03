@@ -1646,3 +1646,13 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: left;">Because google.com resolved, that means our DNS server is working. And because we can ping to the internet.</p>
 <p style="text-align: left;">That means if we look at our network diagram, this whole infrastructure is working. We have connectivity all the way to the default gateway, which is the domain controller. The domain controller is properly NATing and forwarding it out to the internet, and then it can properly come back. Our ping can come back to us as an echo reply. So all this infrastructure is working, and we should be good to go.</p>
 <p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mHswHOVtFKMmwsEn2TOT5p9g6VWz9zpWLsO1WfgBcK5121dbsH1pHO3wRuV4rxwMinmn8Dfgm6SIjxfNXXflZAzUeEHB3lX2KdhBg1RU5-OXf5LHBfUZvH75OG6gLd9ew9bD8_piTIGHYYqdRhDn1YzWO1u_-Hsjpiz0_XjaMVstNzpsj99vL5VvebjL8Qad5mtzQo0TLZZNzdHkzbqVrlTBOQCUfggJhUVDJU_QgB70" alt="" width="80%" height="80%" /></p>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So if we go back to our client here, we can try to ping mydomain.com, which is our domain controller. I'm sure this is going to work, but we can verify it. The ping responds, which is good.</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4moFnAHjcvW_atPg03X1gqhRialNnH3cKz1Z0VpbsxmzWmt-YJYiVZL1_JE5b__iDvqgzxsrXThkb5AQOYwEZah02-GQIsP9M6fOcxOOHTaR-Z_cNp0FX0xJ8f3UA9MJ_HOaIbBENRiv2yZTQTw2wMxCVhgItHpuifnb1Thjrbr_zJwRzW3Ah_GzjPPsiqx6iTOsWClyR-5iw6f9JEszoUa5VH9fCjRxf6fyyJ9tASFS8" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
