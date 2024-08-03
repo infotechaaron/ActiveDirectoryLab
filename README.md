@@ -1624,3 +1624,25 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: left;">After the icons turn green in the DHCP server, hop over to the other Windows 10 Client VM and check the command prompt with ipconfig:</p>
 <p style="text-align: left;">&nbsp;</p>
+
+
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>So back on the Windows 10 Client type ipconfig again in cmd prompt:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mFmhBooD_sSQzyYqHmUqvwqUPWVYdQ-JdL4B-R-sXe8K-zukGiYlwrkNtXWpZeEEPEi7RXkOeU8TeNfqo7dOitnci87GfS0akssdnW_488xo9KzV62l40kbVKLun8jZxlWE9HQl9mcmXM6wf-JvYjae6_4wSJKfWTLMoBwvQ0DMKP5rqosm0CHLbp0njQpthSMXS4RsKyLHgwazpOh8ZP4S82MczddiGJmWUqDQqeP8Y" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Still the same. So type ipconfig /renew and hopefully that will reach the DHCP Server and give us an IP address on CLIENT1:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mbmnPC-WIR7IILE57o5THoC-TEjGS0FzUSOllMlvWA44EkIuPbahf_XYz6ZwG2L9vEwuWpIiXVB4WkclWfBPRlRohxvSUBjhuu5qsSQyhVn6slUGwvSIyOkrwvUSnrMsCRuBC4RiT5XAWGgQ8Xmxqg-UQBAB-ek7W7BO6f0-A-_T_2NddektgUBE5t8rz4q3exW0SfV65AGZ-VCIfsQaxha6aj5wQh5zYIfGjkC9v4Ro" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Bingo! That did the trick. CLIENT1 now has an IP address.</p>
+<p style="text-align: left;">Just to be sure,&nbsp;let's try to ping something on the internet:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mZmHOCSKojItkI9nmkXEKeJIgwtuz4huJQQiq4pzQqihGo396b4vn6FqbCzNQR36057tj8wLnNHUF4DCh35tAamaaC0uOP9pN5Jco1eJlmdBWdMWunZkEsYwKw8Fzr5cu2NulOqvXEYk9YwcLuLZv3DfcrO94s1gfARuGHRNeirUnXUIkQII1jOyQ49Oqp3vg1sPdtnkEYXLAUcjV-5Y0s_eR4r_r3TUjQkiUXPtm9GA" alt="" width="80%" height="80%" />&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Because google.com resolved, that means our DNS server is working. And because we can ping to the internet.</p>
+<p style="text-align: left;">That means if we look at our network diagram, this whole infrastructure is working. We have connectivity all the way to the default gateway, which is the domain controller. The domain controller is properly NATing and forwarding it out to the internet, and then it can properly come back. Our ping can come back to us as an echo reply. So all this infrastructure is working, and we should be good to go.</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mHswHOVtFKMmwsEn2TOT5p9g6VWz9zpWLsO1WfgBcK5121dbsH1pHO3wRuV4rxwMinmn8Dfgm6SIjxfNXXflZAzUeEHB3lX2KdhBg1RU5-OXf5LHBfUZvH75OG6gLd9ew9bD8_piTIGHYYqdRhDn1YzWO1u_-Hsjpiz0_XjaMVstNzpsj99vL5VvebjL8Qad5mtzQo0TLZZNzdHkzbqVrlTBOQCUfggJhUVDJU_QgB70" alt="" width="80%" height="80%" /></p>
