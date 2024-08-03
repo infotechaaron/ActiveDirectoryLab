@@ -1548,13 +1548,14 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/ThUV5vG.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><br /><br /> Confirm your Password:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/dLNYvbI.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><br /><br /> Answer the Security Questions:</p>
-<p style="text-align: center;"><img src="https://i.imgur.com/Y2HQnmb.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p>&nbsp;</p>
+<p>We don't need a password, so leave blank and hit next:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mJQf7DxsFCfLfADaNJTK_3j4hlC2FNsKKIuxySTWnMzy0fe6v9kWD3JMtldPHFOaTfOJpCil0MifR8rkmwiGwatPuEKoM5fYcrRrdOf07wW74A0MI7bGej1IOPGnrCy3YWDfLaurQKzbpLQIy0vm_m5AKpnV3EOGtP5XVb6SeXmVZPxVgO2Jxrd3mmrDmXbG1uVRovOCwjyO5fxkttOe6MHdx5iv28kDovtmiSndLRJY" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+
 <p>&nbsp;</p>
 <p><br /><br /> Select &ldquo;<strong>Not now</strong>&rdquo;:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/yFb9aJ1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
