@@ -1322,10 +1322,19 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 
 <h2 id="step10">STEP 10: Configuring VirtualBox with our Windows 10 VM Client Computer</h2>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>The very last thing we have to do, really, is create this <strong>Windows 10 Client virtual machine</strong> in VirtualBox. It's just going to use an internal NIC, and it should get its IP address, like it says here, from our DHCP server that we configured. Then we'll verify that after the fact.</p>
+
+
 <p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mQCdLNpEjSey3jzx8qWdaUL0PbjJfBUGwkYzAWdEbz6P38NNaRFy_HMYAuHM7PW8xhcLG1ersdU82W6BLDV4gp7Kjo3aWR7eNZcWFxfVbUejNv1UF8j0zmEyvXNoLwOkGUJmEHli9Bn2eG1nxy7hPMQip8uvPVS1-wu0pJRwSNAj340odfot8v6Zox1aDlgEu6U_THXw_nPAs1WDPo672PFoINBWe_G7cE5KXXsTaipM" alt="" width="80%" height="80%" /></p>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
+<p>So let's go back to our Domain Controller VM and shut it down for now because we're kind of done dealing with that for now. We'll come back to it later.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">We need to download the Windows 10 ISO file first and install it on a new VM in VirtualBox. This next section details the steps:</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
 <ul>
 <ol>
 1. Create a Windows 10 image file for the VirtualBox OS (you can do this many different ways):<br/>
