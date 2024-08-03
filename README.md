@@ -1446,6 +1446,18 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p dir="auto">&nbsp;</p>
 <p dir="auto">Shortly you should see the new Windows10 virtual machine in VirtualBox:</p>
 <p dir="auto"><a href="https://camo.githubusercontent.com/40205ce2b9352e13b291d52d3b5653c864dbae54e16c037784dc57eba274aa67/68747470733a2f2f692e696d6775722e636f6d2f416655446776312e706e67" target="_blank" rel="noopener noreferrer nofollow"><img src="https://krqalg.dm.files.1drv.com/y4mDAXHrCn9QzOtIn76DUNhkcMysqmFZB2xGQg-lkDNt14eRYsj-HYjugs5MBqSTVibvlVSid5pZInjmGjF5EgxKbMztKw-YcOcECjYHgn6Lz19U1OaWG8TVlXAxZkRsAGjU85idIjxaKbkAe_m5kohHIT7ngnKrDxCvAyqjyWtoaG-mqfiuCdvYw_i5xATFtkwyfTCwpfUOH6Af07hVgyTK8znN6anSmc-bs7fARTpbLA" alt="Microsoft Azure Virtual Machine" width="80%" height="80%" data-canonical-src="https://i.imgur.com/AfUDgv1.png" /></a></p>
+
+<p dir="auto">&nbsp;</p>
+<p dir="auto">&nbsp;</p>
+<p dir="auto">Before we start the VM, go to&nbsp;<strong>Settings&nbsp;</strong>&gt;&gt;&nbsp;<strong>General&nbsp;</strong>&gt;&gt;&nbsp;<strong>Advanced&nbsp;</strong>&gt;&gt;&nbsp;change both options to<strong> Bidirectional</strong></p>
+<p dir="auto">&nbsp;</p>
+<p dir="auto" style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4m6pKpgALLnpC0cMIfDt62C36x4DSQUvR1ugtJZGiVXwmNyUFRx-dYHCw7vbVvpUuqRjhoB9kPrw_X-9L1MoZVd8nna5VMv4p8j7x9zEyQ_uTGBng1NXbivcCxVAktJMzXeB1n42HJ0cPt0Ej40TSdj-LBrmInxeRc1Md7dB7BjhUmQyGWeCNAJTY4JhAKq5-rYMphhnDwizlSglbwsJ9MRjGkwv6UF9tZlz-tY1k3bcM" alt="" width="80%" height="80%" /></p>
+<p dir="auto">&nbsp;</p>
+<p dir="auto">Then go to&nbsp;<strong>Network&nbsp;</strong>&gt;&gt; change the Network Adapter to&nbsp;<strong>Internal Network</strong></p>
+<p dir="auto" style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4meNEVlURXZsGDvZnY05IRcR24uc254BaNYa46vLok_t9_9hCLoDxU9fVJOZpY_2f1GRGhTqpdp4bIXNj_idj1sbx1M4_chIsSoJgzD1XRMm7nC_oMJKY7mYJ9h_uGk_e5zVw2tB4atektl37etqBUAaLFn1aXlxJxHmhpSwIbuapKgRlm7k9KljEL43gxm76yGzusaek6DQWw07g2vAiCok8PvsQX1N7F9DYhrgss2pI" alt="" width="80%" height="80%" /></p>
+<p dir="auto">&nbsp;</p>
+<p dir="auto">&nbsp;</p>
+
 <p dir="auto"><br />Go ahead and hit the green arrow labeled&nbsp;<strong>Start</strong>&nbsp;at the top.<br /><br /></p>
 <p dir="auto">&nbsp;</p><p>&nbsp;</p>
 <p><br /> Eventually, you&rsquo;ll be presented with the Windows Setup page:</p>
