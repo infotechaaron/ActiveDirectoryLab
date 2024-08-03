@@ -1499,6 +1499,10 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/RqOYd65.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+
+
+
 <p><br /><br /> Choose your region (<strong>United States</strong>):</p>
 <p style="text-align: center;"><br /><img src="https://i.imgur.com/MZFxlUP.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p style="text-align: center;">&nbsp;</p>
@@ -1511,6 +1515,16 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: left;">&nbsp;</p>
 <p style="text-align: left;">Hit <strong>Skip</strong>:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/16vfa5Q.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">If you get this screen, just click&nbsp;<strong>I don't have internet&nbsp;</strong>on the bottom:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mqlJ1BCCf4muyDzOGla8SOeHajvKABNy_pyXKuzj1ah-UHxCCpJpa3SqCUerfFcjSHb24po2oMcQK55i9igplcEDKJ2I8g9vlf-8Rp46MV4pBdTK8LAr_sLahIgUKwnEtQcQ5MGIulnEcG0k6pX6unS968fWoaeHOyLZqe7PnZOtHnxSzJiP5ied4MAlxohit5irfD8SXKpuEPyRM5hrjH9PxgNoThqfEk3THFfj9gZY" alt="" width="80%" height="80%" /></p>
+
+
+
+
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><br /><br /> Select &ldquo;<strong>Set up for personal use</strong>&rdquo; and &ldquo;<strong>Next</strong>&rdquo;:</p>
