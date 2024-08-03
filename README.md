@@ -1572,15 +1572,55 @@ Here is the HTML code with the integer values in the `width` and `height` attrib
 <p style="text-align: center;"><img src="https://i.imgur.com/MarvDl1.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+
+<p>&nbsp;</p>
+<p>It will take a while and get things ready:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mnupkxq7DVatW1wOBJ745gvOqN39tSS_SQS5De1BGUc5NW-TQZpiO3BgpBkcrJSyXOQw6WJLmeP7OpiQmUAgvKGiOoqCbDd01bpDEOMolaRn-s3VUlm02GE7WOXqAtwfRfJgexo_vEUeizmBv8-DK1iXZhpvkzDX45vOr3t96XedE35yIL9HIahKKlGxhs_3ejIvBcCzOhOuWHsVTPRl5RVk3gJFPAI-nVXAECF3axj8" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+
+
 <p><br /><br /> Finally, we&rsquo;re up and running:</p>
 <p style="text-align: center;"><img src="https://i.imgur.com/thcIT4l.png" alt="Microsoft Azure Virtual Machine" width="70%" height="70%" /></p>
-<p><br /><br /> Create a username and password once Windows is done installing (below is my example)</p>
-<ul>
-<li>Username: aaron</li>
-<li>Password: Neverhappened86</li>
-</ul>
-<br/>
-<br/>
-<br/>
-<br/>
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Something strange is going on with the internet connection it seems because it's not showing in the bottom right system tray.</p>
+<p>So let's check the command prompt to see what's going on.</p>
+<p>Type&nbsp;<strong>cmd&nbsp;</strong>in the search bar and open&nbsp;<strong>Command Prompt</strong></p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4meYjPq3h1zNy96e1moAt9pa5ACq6Rj74ToDdgZA4Z3RXtyU9fz3Gj_lbmCr9dmIA1NeNjqRJKofO3JeYP82hGF9kIwiIcMhI4CV095TLsfBqlNtZwmwTUwuSXaYITZoNrPAaKrdvcEvXW4r9cAjU2gdue-n6kHPI3xKjmB44RX3gSyusgh3OceJydPDK1_JsAUf-DIvyhB3_aejcUD_jBlQsgjf4zI4iCXCaUXNO9oDs" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Type in&nbsp;<strong>ipconfig /all&nbsp;</strong> into the command prompt:</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mecwQtCgMmUHL8v6OcyL7etTDNRimXA_rQvYZqkC3jCAb4Bz2c0QYuKRkWY6rtHmLySWd1c7LU-8Zn3dwG0YmnuDXZ9ZWDuzngPTUrvc2Keg5OG1vmz2slKbUTwo1BB3CBn_apwebJmfkVo2NPyrH0ysw-rF6xTuY0dMTOtv1W0lmySNrWqGPhfxN420dGF0ljgf1eXgU9kxNVTS3aH7ANyN9k__o41GwN2qC9kqpiqc" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">Very strange, I'm not seeing a Default Gateway in this setup in order to get an IP address from the DHCP server.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">So let's go back to the Domain Controller and investigate.</p>
+<p style="text-align: left;">Go to&nbsp;<strong>Tools&nbsp;</strong>&gt;&gt;&nbsp;<strong>DHCP</strong></p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4m6T7RJxUJedfLRFoa3KPypShMzw9CwQto_wtkCfIWW8Tc1-F7mTfGrLKK4bBP7xhiM-uWRG8XL1ZLnS9P4bnpy7PxNJf5R3WnkWEJg0cZvQ76W9ut6wRbd7mEm23kM-32myQD8R9LKQxsieQs0tzmqaAayckjupNoYC3tjZVIhwFk-JdgZrJo_Io59EeFPUF-wnYJ-fnq5IqYvMKTXdxCr1EGznt5t2TK09ZayohbQqA" alt="" width="80%" height="80%" /></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Then rgo to IPv4 &gt;&gt; right click on Server Options &gt;&gt; Configure Options</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mmtOihTWdpVV5Z-zi2xvUe59WP4o8RSysOgBfVCSdi0t8p63invRjsv2ZxPDXrXDVYEAYfdVzrxLNeXXCFSXlfBEazt1qXOJKFMEBmgCN-sBdADGABWJwr12W7INw7wx4Mhb1MkgUhsUbfG_3_EG5dHYHzRjC_WxA2gTsGIT1Myvm8uxW4tNfEHbirtBETdhbvTurMLj040ZntXjSmjMN5jqyISUv47VkAcOGPYcSL9U" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">There's the issue!</p>
+<p style="text-align: left;">Go ahead and check <strong>003 Router</strong> &gt;&gt; then add <strong>172.16.0.1</strong> &gt;&gt; <strong>Apply</strong></p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4mo97Q69y3_P_MVurmottKAFCQ2NkRX1axyEJ8KdhzykT7H3JuwymGlNFBn312MxudBqnt0rNxvIReWIpXiBpGJRnfLgfW9fg8D6-Xvs9JNKjUlB2e1nwjFnqPufVf95lhJe8UW-Pq0MOII8RgQen2cS6A_hjuaDOkDHiKY3RqCjIM45tNQkCWhGxpnL4yi1I-oGA1lroxvwhBZlHN3CmZwNF-6qsHDYy7xj0d7sB9dpU" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">Then restart the the server by right clicking on dc.mydomain.com &gt;&gt; All Tasks &gt;&gt; Restart</p>
+<p style="text-align: center;"><img src="https://krqalg.dm.files.1drv.com/y4m5Kq4zf8VrLaLk0qTqSOHDNG2t6wTzAYpV99kiZRFoJAnZgEVyqF1omfiHIW9HStpI9RGAhDMiNe1hbp2PVeH99sNt-SAL_GwwIzQN34iqT-JoTRKB587G-TNyL7--evRXEI4WCHvQp7gGFnIdFW3nducpB-KJxKAeznE2XZM4f-YBwXQgFPHSOl-A9d78gcl-VgVD-NEdHCEEtXa9nYQ15lQ0X7p0exYMLheQsdFVBE" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">It's restarting:</p>
+<p style="text-align: center;"><img src="https://dsm01pap006files.storage.live.com/y4m1lkBZO770oMQwl0Wu-1PiMRkV0gk2bg7VRXJlzbWZNHxcOZiXHn_LuBynliBIhw_ugrkt9GgBKoftRAiFM984yEWAlSxgqAwi-bcEXIsxECjaeNXgRhgAUA_GUqYLgkfo5OQNwhcckslU2uzwamVKC3X8DMnHtxlnGsr9VLCQB3YeCIXGekd-s4UJkZGUfBV3Plj2wj39wDyLa4Yyr38kg?encodeFailures=1&amp;width=855&amp;height=528" alt="" width="80%" height="80%" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: left;">After the icons turn green in the DHCP server, hop over to the other Windows 10 Client VM and check the command prompt with ipconfig:</p>
+<p style="text-align: left;">&nbsp;</p>
